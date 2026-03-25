@@ -1,0 +1,29 @@
+[
+  {
+    "assunto": "soma",
+    "pergunta": "quanto é 2 + 2?",
+    "imagem": "sem_imagem",
+    "tipo": "multipla",
+    "alternativas": ["1","2","4","67"],
+    "resposta": 2
+  },
+  {
+    "assunto": "soma",
+    "pergunta": "quanto é 4 + 4?",
+    "imagem": "sem_imagem",
+    "tipo": "multipla",
+    "alternativas": ["1","8","4","67"],
+    "resposta": 1
+
+  },
+  {
+    "assunto": "soma",
+    "pergunta": "qual é verdadeiro 2+2 = 4 ou 2+2 = 67?",
+    "imagem": "sem_imagem",
+    "tipo": "vf",
+    "alternativas": ["Verdadeiro", "Falso"],
+    "resposta": 0
+  }
+
+
+]

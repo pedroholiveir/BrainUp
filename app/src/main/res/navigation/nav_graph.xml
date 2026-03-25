@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.brainupprototipo.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/materiasFragment"
+        android:name="com.example.brainupprototipo.MateriasFragment"
+        android:label="MateriasFragment" />
+    <fragment
+        android:id="@+id/minhaContaFragment"
+        android:name="com.example.brainupprototipo.MinhaContaFragment"
+        android:label="fragment_minha_conta"
+        tools:layout="@layout/fragment_minha_conta" />
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/inicioFragment"
+        android:icon="@drawable/baseline_house_24"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/materiasFragment"
+        android:icon="@drawable/book"
+        android:title="Matéria" />
+    <item
+        android:id="@+id/minhaContaFragment"
+        android:icon="@drawable/iconprofile"
+        android:title="Minha Conta" />
+</menu>

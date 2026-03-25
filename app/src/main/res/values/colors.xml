@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fundomatematica">#1A03B4F4</color>
+    <color name="fundoportugues">#20db3b3b</color>
+    <color name="fundocienciashumanas">#25ed6d24</color>
+    <color name="fundocienciasnatureza">#2027e324</color>
+    <color name="cienciasnatureza">#44db42</color>
+    <color name="portugues">#db3b3b</color>
+    <color name="matematica">#1A03B4F4</color>
+    <color name="cienciashumanas">#ed6d24</color>
+    <color name="azul_app">#38B6FF</color>
+</resources>

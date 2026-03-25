@@ -1,0 +1,20 @@
+[
+  {
+    "assunto": "figuras_de_linguagem",
+    "pergunta": "Qual é a figura de linguagem?",
+    "tipo": "multipla",
+    "alternativas": ["metafora", "ironia", "antitese", "comparação"],
+    "resposta": 1,
+    "imagem": "sem_imagem"
+
+  },
+  {
+    "assunto": "figuras_de_linguagem",
+    "pergunta": "Qual é a figura de linguagem?",
+    "tipo": "multipla",
+    "alternativas": ["metafora", "ironia", "antitese", "comparação"],
+    "resposta": 3,
+    "imagem": "sem_imagem"
+
+  }
+]

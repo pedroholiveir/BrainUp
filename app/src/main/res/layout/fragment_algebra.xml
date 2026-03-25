@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundomatematica"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Álgebra"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <LinearLayout
+        android:id="@+id/passo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Na álgebra, letras como x, y, a, b representam valores que a gente ainda não sabe."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="x+5=10"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Aqui, o x é um número desconhecido. A gente usa a álgebra pra descobrir que:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="x=5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="A álgebra serve para: Resolver problemas com valores desconhecidos; Criar fórmulas; Entender padrões; Resolver situações do dia a dia (dinheiro, tempo, distância, etc.)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="1 - Expressões algébricas"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="São contas com letras e números, mas sem sinal de igual. Exemplo:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="2x+3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="2 - Equações"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="São igualdades com uma incógnita. Exemplo:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="2x+3=7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="3 - Resolver equações"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="É descobrir o valor da letra. Exemplo:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="2x=10⇒x=5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="4 - Relação Se há uma letra ao lado do numero, e não possui nenhum sinal entre eles, significa que o número está multiplicando a letra exemplo:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="2x se x = 3 então 2x = 2 x 3 = 6"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:lineSpacingExtra="8dp"
+            android:padding="10dp"
+            android:text="Álgebra = matemática com letras \nLetras = números que você ainda não sabe "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo da vida real: \n\nSe um lanche custa R$ 10 + R$ 2 por adicional, você pode escrever:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="preço = 10+2x"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Pois a quantidade de vezes que o 2 repete depende da quantidade de adicionais que você colocar"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo5_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo do preço"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="16=10+2x"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="O 10 passa para o outro lado subtraindo"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#542196F3"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="16-10=2x"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="6=2x"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo5_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="dividimos 6 por 2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="6 ÷ 2 = 3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="X = 3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo5_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="tirando a prova real"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="16=10 + 2 x 3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="5 - Reversão de sinal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Na álgebra, quando falamos “passar para o outro lado”, na verdade estamos fazendo uma operação para manter a igualdade equilibrada."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Tudo em uma equação funciona como uma balança. \n\nSe você mexe de um lado, precisa compensar do outro."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Regra prática:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Quando um número muda de lado na equação, a operação inverte:\n\nSoma ➝ vira Subtração \nSubtração ➝ vira Soma \nMultiplicação ➝ vira Divisão \nDivisão ➝ vira Multiplicação"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo6_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="10=5+5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Queremos “tirar” o 5 do lado direito. \n\nFazemos -5 nos dois lados:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="10−5 = 5+5−5 \n5 = 5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Não é só “passar pro outro lado” \n\nFazemos a operação inversa para manter o equilíbrio."
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btproximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Proxímo Passo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
