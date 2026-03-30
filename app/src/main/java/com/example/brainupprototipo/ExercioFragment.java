@@ -1,6 +1,7 @@
 package com.example.brainupprototipo;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ImageButton;
+import android.content.res.ColorStateList;
 
 import java.util.List;
 
@@ -79,8 +81,7 @@ public class ExercioFragment extends Fragment {
             else{
                 abrirResultado();
             }
-                }
-                );
+                });
 
         btop1.setOnClickListener(v -> selecionarResposta(0));
         btop2.setOnClickListener(v -> selecionarResposta(1));
@@ -108,6 +109,8 @@ public class ExercioFragment extends Fragment {
 
         avancar.setVisibility(View.INVISIBLE);
 
+        limparSelecao();
+
         Perguntas p = perguntas.get(indice);
 
         textpergunta.setText(p.pergunta);
@@ -122,7 +125,6 @@ public class ExercioFragment extends Fragment {
             btop2.setText(p.alternativas[1]);
             btop3.setText(p.alternativas[2]);
             btop4.setText(p.alternativas[3]);
-
         }
 
         if(p.tipo.equals("vf")){
@@ -155,19 +157,69 @@ public class ExercioFragment extends Fragment {
     }
     public void selecionarResposta(int indiceSelecionado){
 
-        if(respondeu) return;
-
-        respondeu = true;
-
-        respostaSelecionada = indiceSelecionado;
-
         Perguntas p = perguntas.get(indice);
 
-        if(respostaSelecionada == p.resposta){
+        // 🔁 desselecionar
+        if (respostaSelecionada == indiceSelecionado) {
+
+            // se estava certo, remove ponto
+            if (respostaSelecionada == p.resposta) {
+                acertos--;
+            }
+
+            respostaSelecionada = -1;
+            respondeu = false;
+
+            limparSelecao();
+            avancar.setVisibility(View.INVISIBLE);
+
+            return;
+        }
+
+        // 👉 NOVA SELEÇÃO
+
+        // se já tinha respondido antes, ajusta pontuação
+        if (respostaSelecionada == p.resposta) {
+            acertos--; // remove acerto antigo
+        }
+
+        respostaSelecionada = indiceSelecionado;
+        respondeu = true;
+
+        // se acertou agora
+        if (indiceSelecionado == p.resposta) {
             acertos++;
         }
 
+        limparSelecao();
+        destacarSelecionado(indiceSelecionado);
+
         mostrarAvancar();
+    }
+
+    private void limparSelecao() {
+        btop1.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+        btop2.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+        btop3.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+        btop4.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+        verdadeiro.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+        falso.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.azul_app)));
+    }
+
+    private void destacarSelecionado(int index) {
+
+        if(multipla.getVisibility() == View.VISIBLE){
+            Button[] botoes = {btop1, btop2, btop3, btop4};
+            botoes[index].setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.btselecionada)));
+        }
+
+        if(vf.getVisibility() == View.VISIBLE){
+            if(index == 0){
+                verdadeiro.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.btselecionada)));
+            } else {
+                falso.setBackgroundTintList(ColorStateList.valueOf(getResources().getColor(R.color.btselecionada)));
+            }
+        }
     }
 
 }

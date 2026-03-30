@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 import androidx.fragment.app.Fragment;
@@ -16,7 +17,9 @@ public class AlgebraFragment extends Fragment {
 
     private LinearLayout[] passos;
     private int passoAtual = 0;
-    private Button btproximo;
+    private Button btproximo, btexercicios;
+
+    private ImageButton btvoltar;
 
     public AlgebraFragment() {}
 
@@ -44,6 +47,10 @@ public class AlgebraFragment extends Fragment {
         passoAtual = 1;
 
         btproximo = view.findViewById(R.id.btproximo);
+        btvoltar = view.findViewById(R.id.btvoltar);
+        btexercicios = view.findViewById(R.id.btexercicios);
+
+        btvoltar.setVisibility(View.INVISIBLE);
 
         btproximo.setOnClickListener(v -> {
 
@@ -63,19 +70,53 @@ public class AlgebraFragment extends Fragment {
 
                 passoAtual++;
 
+                btvoltar.setVisibility(View.VISIBLE);
+
                 if (passoAtual == passos.length) {
-                    btproximo.setText("Exercicios");
+                    btproximo.setVisibility(View.INVISIBLE);
+                    btexercicios.setVisibility(View.VISIBLE);
                 }
 
-            } else {
-
-                // troca para tela de exercícios
-                requireActivity().getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.container, new ExercioFragment())
-                        .addToBackStack(null)
-                        .commit();
             }
+
+        });
+
+        btvoltar.setOnClickListener(v -> {
+
+            if (passoAtual > 1) {
+
+                LinearLayout atual = passos[passoAtual - 1];
+
+                atual.animate().alpha(0f).setDuration(200).withEndAction(() -> {
+                    atual.setVisibility(View.GONE);
+                });
+
+                passoAtual--;
+
+                LinearLayout anterior = passos[passoAtual - 1];
+
+                anterior.setAlpha(0f);
+                anterior.setVisibility(View.VISIBLE);
+                anterior.animate().alpha(1f).setDuration(300);
+
+
+                if (passoAtual == 1) {
+                    btvoltar.setVisibility(View.INVISIBLE);
+                } else {
+                    btvoltar.setVisibility(View.VISIBLE);
+                }
+
+                btproximo.setVisibility(View.VISIBLE);
+                btexercicios.setVisibility(View.INVISIBLE);
+            }
+        });
+
+        btexercicios.setOnClickListener(v -> {
+            requireActivity().getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.container, new ExercioFragment())
+                    .addToBackStack(null)
+                    .commit();
         });
 
         return view;

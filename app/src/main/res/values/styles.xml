@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomIndicator">
+        <item name="android:color">#00FFAA</item>
+    </style>
+</resources>

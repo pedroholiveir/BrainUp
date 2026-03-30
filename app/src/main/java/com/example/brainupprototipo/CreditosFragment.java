@@ -10,14 +10,14 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-public class InicioFragment extends Fragment {
+public class CreditosFragment extends Fragment {
 
-    public InicioFragment() {}
+    public CreditosFragment() {}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_inicio, container, false);
+        View view = inflater.inflate(R.layout.fragment_creditos, container, false);
 
         Window window = requireActivity().getWindow();
         window.setStatusBarColor(getResources().getColor(R.color.fundoApp));
