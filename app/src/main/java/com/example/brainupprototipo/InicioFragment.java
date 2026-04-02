@@ -10,6 +10,8 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.button.MaterialButton;
+
 public class InicioFragment extends Fragment {
 
     public InicioFragment() {}
@@ -22,7 +24,17 @@ public class InicioFragment extends Fragment {
         Window window = requireActivity().getWindow();
         window.setStatusBarColor(getResources().getColor(R.color.fundoApp));
 
+        MaterialButton btprovas = view.findViewById(R.id.btprovas);
 
+        btprovas.setOnClickListener(v -> {
+
+            requireActivity().getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.nav_host_fragment, new ProvasEnemFragment())
+                    .addToBackStack(null)
+                    .commit();
+
+        });
 
         return view;
     }

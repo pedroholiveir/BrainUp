@@ -62,7 +62,7 @@
             android:id="@+id/btquimica"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Biologia"
+            android:text="Química"
             android:textSize="20sp"
             android:backgroundTint="@color/cienciasnatureza"
             app:cornerRadius="10dp" />
@@ -71,10 +71,29 @@
             android:id="@+id/btbiologia"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Química"
+            android:text="Biologia"
             android:textSize="20sp"
             android:backgroundTint="@color/cienciasnatureza"
             app:cornerRadius="10dp" />
+
+        <LinearLayout
+            android:id="@+id/menubiologia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btcitologia"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Citologia"
+                android:textSize="20sp"
+                android:backgroundTint="@color/cienciasnatureza"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
 
 
 

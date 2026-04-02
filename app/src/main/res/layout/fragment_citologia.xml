@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciasnatureza"
+    tools:context=".conteudos.CitologiaFragment">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Citologia"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/passo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:text="A citologia é a área da biologia responsável por estudar as células, incluindo sua estrutura, funcionamento, composição e importância para os seres vivos."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="A célula é considerada a menor unidade da vida, pois é a menor estrutura capaz de realizar todas as funções vitais de um organismo. Isso significa que tudo o que caracteriza um ser vivo — como metabolismo, crescimento, reprodução e resposta ao ambiente — acontece no nível celular."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Todos os seres vivos são formados por células. Alguns possuem apenas uma célula (organismos unicelulares, como bactérias), enquanto outros possuem bilhões delas (organismos multicelulares, como o ser humano)."
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/lampada" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Dica"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/playerView"
+            android:layout_width="360dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            app:enableAutomaticInitialization="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Organização dos seres vivos"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="A vida é organizada em níveis, e a célula ocupa uma posição central:"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/molecula" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Moléculas formam estruturas celulares"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:rotation="-90"
+            android:src="@drawable/setaesquerda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/estruturacelular" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Estruturas celulares formam células"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:rotation="-90"
+            android:src="@drawable/setaesquerda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/celula" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Células formam tecidos"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:rotation="-90"
+            android:src="@drawable/setaesquerda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/tecido" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Tecidos formam órgãos"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:rotation="-90"
+            android:src="@drawable/setaesquerda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/coracaohumano" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Órgãos formam sistemas"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="10dp"
+            android:rotation="-90"
+            android:src="@drawable/setaesquerda" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/sistemas" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Sistemas formam o organismo"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Tipos de células"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="As células podem ser divididas em dois grandes grupos: procariontes e eucariontes."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Células procariontes"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/procarionte" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="São células mais simples e menores, com organização interna reduzida."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Características principais:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="→Não possuem núcleo delimitado por membrana. \n→Não possuem organelas membranosas. \n→Possuem ribossomos simples. \n→Estrutura interna pouco compartimentada."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Muitas células procariontes possuem estruturas adicionais, como:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="→Parede celular (proteção e sustentação) \n→Flagelos (movimento)"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo: bactérias"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bacteria" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Apesar da simplicidade, são extremamente eficientes e adaptáveis, podendo viver em ambientes variados, inclusive extremos."
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Células eucariontes"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="São células mais complexas e organizadas."
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/eucarionte" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Possuem núcleo verdadeiro, delimitado por uma membrana nuclear, onde o DNA fica protegido e organizado em cromossomos."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Características principais:"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="→Presença de núcleo definido \n→Presença de diversas organelas membranosas \n→Maior tamanho em relação às procariontes \n→Alto nível de organização interna"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/passo4_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Exemplo:"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:src="@drawable/animal_vegetal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="32dp"
+                android:text="Células animais"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="32dp"
+                android:text="Células vegetais"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="Essa complexidade permite maior especialização celular e a formação de organismos multicelulares."
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:id="@+id/passo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Estrutura básica da célula"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:text="Apesar da diversidade, a maioria das células apresenta três componentes fundamentais: membrana plasmática, citoplasma e núcleo (nas eucariontes)."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Membrana plasmática"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:padding="16dp"
+                android:src="@drawable/membrana_plasmatica" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:text="A membrana plasmática envolve a célula, separando o meio interno do meio externo."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:text="Ela é formada principalmente por fosfolipídios organizados em uma bicamada e proteínas inseridas nessa estrutura. Esse modelo é conhecido como mosaico fluido, pois os componentes possuem certa mobilidade."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Funções principais"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="→Controlar a entrada e saída de substâncias \n→Proteger a célula \n→Permitir comunicação com o ambiente \n→Participar do reconhecimento celular"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="A membrana é chamada de permeável seletiva, pois permite a passagem de algumas substâncias e impede outras, mantendo o equilíbrio interno da célula."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/passo5_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Citoplasma"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:gravity="center"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:text="Proxímo"
+        android:visibility="visible"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
