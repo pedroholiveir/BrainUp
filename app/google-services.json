@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "562945524156",
+    "firebase_url": "https://brainup-840e9-default-rtdb.firebaseio.com",
+    "project_id": "brainup-840e9",
+    "storage_bucket": "brainup-840e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562945524156:android:2636234acc3e6e62de2bb9",
+        "android_client_info": {
+          "package_name": "com.example.brainupprototipo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAIUGCOz8o7nDCS_zZ7VT9Ii8T94KBx34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

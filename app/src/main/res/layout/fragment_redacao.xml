@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Responsividade:
+  - fitsSystemWindows: respeita barra de status/navegação e o teclado (edge-to-edge).
+  - Coluna central com largura máxima de 640dp: em tablets e na horizontal o texto
+    não estica pela tela inteira.
+  - Botões com altura wrap_content + minHeight (acompanham o tamanho de fonte do sistema).
+  - Campos com flagNoExtractUi: o teclado não ocupa a tela toda na horizontal.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundoApp"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/colunaRedacao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_max="640dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Redação ENEM"
+                android:textColor="@color/texto_primario"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Escreva sua redação no modelo ENEM e receba uma correção por competência."
+                android:textColor="@color/texto_secundario"
+                android:textSize="16sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="📋 Regras da prova"
+                        android:textColor="@color/texto_primario"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="• Texto dissertativo-argumentativo, em norma culta da língua portuguesa.&#10;• Entre 8 e 30 linhas: com 7 linhas ou menos a redação é considerada “texto insuficiente” e recebe nota zero.&#10;• Também recebe zero quem foge ao tema, não segue o tipo dissertativo-argumentativo, tem parte desconectada do tema ou se identifica no texto.&#10;• A proposta de intervenção deve respeitar os direitos humanos.&#10;• Nota de 0 a 1000: cinco competências valendo até 200 pontos cada."
+                        android:textColor="@color/texto_primario"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🎯 As 5 competências"
+                        android:textColor="@color/texto_primario"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="1. Domínio da norma culta da língua escrita.&#10;2. Compreensão do tema e do tipo textual, usando repertório de diferentes áreas.&#10;3. Seleção e organização de argumentos em defesa de um ponto de vista.&#10;4. Coesão: uso de conectivos e mecanismos linguísticos.&#10;5. Proposta de intervenção detalhada, que respeite os direitos humanos."
+                        android:textColor="@color/texto_primario"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🧱 Estrutura sugerida"
+                        android:textColor="@color/texto_primario"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:lineSpacingExtra="3dp"
+                        android:text="Introdução: apresente o tema e sua tese.&#10;Desenvolvimento 1: um argumento com repertório (fato, dado, citação, obra).&#10;Desenvolvimento 2: outro argumento, em outra perspectiva.&#10;Conclusão: retome a tese e proponha a intervenção com agente (quem), ação (o quê), meio/modo (como), finalidade (para quê) e detalhamento."
+                        android:textColor="@color/texto_primario"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Tema"
+                android:textColor="@color/texto_primario"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edTema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:autofillHints="no"
+                android:background="@drawable/card_redacao"
+                android:gravity="top|start"
+                android:hint="Digite um tema ou sorteie um do ENEM"
+                android:imeOptions="flagNoExtractUi"
+                android:importantForAutofill="no"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="2"
+                android:padding="12dp"
+                android:textColor="@color/texto_primario"
+                android:textColorHint="@color/texto_secundario"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btSortearTema"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="🎲 Sortear tema" />
+
+            <LinearLayout
+                android:id="@+id/containerTemas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Sua redação"
+                android:textColor="@color/texto_primario"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edRedacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:autofillHints="no"
+                android:background="@drawable/card_redacao"
+                android:gravity="top|start"
+                android:hint="Escreva aqui seu texto dissertativo-argumentativo (até 30 linhas)"
+                android:imeOptions="flagNoExtractUi"
+                android:importantForAutofill="no"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="14"
+                android:padding="12dp"
+                android:textColor="@color/texto_primario"
+                android:textColorHint="@color/texto_secundario"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textContador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="end"
+                android:text="0 palavras"
+                android:textColor="@color/texto_secundario"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btCorrigir"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Corrigir redação" />
+
+            <ProgressBar
+                android:id="@+id/progressCorrecao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textAguarde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Corrigindo... isso pode levar até 30 segundos."
+                android:textColor="@color/texto_secundario"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

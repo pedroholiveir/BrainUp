@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciasnatureza">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Botânica"
+        android:textColor="@color/texto_primario"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/meuscrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/passo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="1. O que é Botânica?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Botânica é o ramo da Biologia que estuda as plantas, incluindo sua estrutura, funcionamento, classificação, reprodução e importância ecológica e econômica."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="1.1. Por que estudar Botânica?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Estudar Botânica é essencial porque as plantas:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Produzem oxigênio por meio da fotossíntese.&#10;→ São a base das cadeias alimentares, sustentando a vida na Terra.&#10;→ Regulam o clima e o ciclo da água.&#10;→ Fornecem alimentos, medicamentos, fibras e matérias-primas.&#10;→ Contribuem para o equilíbrio ecológico."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Em resumo, sem as plantas, a vida como conhecemos não existiria."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="2. Características Gerais das Plantas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As plantas pertencem ao Reino Plantae e apresentam algumas características comuns:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.1. Eucariontes"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Suas células possuem núcleo organizado e organelas membranosas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.2. Pluricelulares"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="São formadas por muitas células especializadas que trabalham de forma integrada."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.3. Autotróficas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Produzem seu próprio alimento por meio da fotossíntese, utilizando luz solar, água e gás carbônico."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.4. Presença de Clorofila"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A clorofila é o pigmento responsável pela cor verde das plantas e pela absorção de luz necessária à fotossíntese."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.5. Parede Celular de Celulose"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Confere rigidez e proteção às células vegetais."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.6. Armazenamento de Amido"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As plantas armazenam energia na forma de amido, diferentemente dos animais, que armazenam glicogênio."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="3. Fotossíntese: O Processo Fundamental"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.1. O que é Fotossíntese?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A fotossíntese é o processo pelo qual as plantas transformam energia luminosa em energia química, produzindo glicose e liberando oxigênio."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.2. Por que a Fotossíntese é Importante?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Fornece alimento para a própria planta.&#10;→ Sustenta toda a cadeia alimentar.&#10;→ Libera oxigênio para a respiração dos seres vivos.&#10;→ Remove dióxido de carbono da atmosfera."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.3. Como o Processo Ocorre?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A fotossíntese acontece nos cloroplastos, principalmente nas folhas, e depende de três elementos:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Luz solar&#10;→ Água (H₂O)&#10;→ Dióxido de carbono (CO₂)"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O resultado é a produção de:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Glicose (C₆H₁₂O₆) – fonte de energia.&#10;→ Oxigênio (O₂) – liberado para a atmosfera."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4. Estrutura Básica das Plantas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As plantas possuem órgãos especializados que desempenham funções específicas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.1. Raiz"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Funções:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Fixação da planta ao solo.&#10;→ Absorção de água e sais minerais.&#10;→ Armazenamento de substâncias nutritivas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que é importante?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sem a raiz, a planta não conseguiria obter os nutrientes necessários para sobreviver."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.2. Caule"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Funções:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Sustentação das folhas, flores e frutos.&#10;→ Condução de substâncias entre raiz e folhas.&#10;→ Armazenamento de reservas em algumas espécies."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Tecidos condutores:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Xilema: transporta água e sais minerais (seiva bruta).&#10;→ Floema: transporta açúcares produzidos na fotossíntese (seiva elaborada)."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.3. Folhas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Funções:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Fotossíntese&#10;→ Trocas gasosas&#10;→ Transpiração"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Estruturas importantes:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Estômatos: pequenos poros que regulam a entrada de CO₂ e a saída de O₂ e vapor de água.&#10;→ Mesófilo: tecido rico em cloroplastos onde ocorre a fotossíntese."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.4. Flores"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Função:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Responsáveis pela reprodução sexuada das plantas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Principais partes:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Estames: estruturas masculinas que produzem o pólen.&#10;→ Pistilo (ou carpelo): estrutura feminina que contém o óvulo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.5. Frutos e Sementes"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Fruto: protege a semente e auxilia na sua dispersão.&#10;→ Semente: contém o embrião que dará origem a uma nova planta."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="5. Classificação das Plantas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As plantas são classificadas de acordo com a presença de vasos condutores, sementes, flores e frutos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="5.1. Briófitas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Exemplo: musgos.&#10;→ Não possuem vasos condutores.&#10;→ Dependem da água para a reprodução.&#10;→ São geralmente de pequeno porte."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="5.2. Pteridófitas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Exemplo: samambaias.&#10;→ Possuem vasos condutores, mas não têm sementes.&#10;→ Reproduzem-se por esporos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="5.3. Gimnospermas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Exemplo: pinheiros.&#10;→ Produzem sementes “nuas”, sem frutos.&#10;→ Não possuem flores verdadeiras."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="5.4. Angiospermas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Exemplo: maioria das plantas com flores.&#10;→ Possuem flores e frutos.&#10;→ São o grupo mais diversificado e adaptado."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="6. Reprodução das Plantas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="6.1. Reprodução Assexuada"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Não envolve fusão de gametas.&#10;→ Produz indivíduos geneticamente idênticos.&#10;→ Exemplo: brotamento e estaquia."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="6.2. Reprodução Sexuada"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Envolve a fusão de gametas masculinos e femininos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Etapas principais:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Polinização: transferência do pólen para o estigma.&#10;→ Fecundação: união do gameta masculino com o feminino.&#10;→ Formação da semente e do fruto.&#10;→ Dispersão e germinação."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="7. Importância Ecológica e Econômica das Plantas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="7.1. Importância Ecológica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Produção de oxigênio.&#10;→ Base das cadeias alimentares.&#10;→ Regulação do clima.&#10;→ Proteção do solo contra erosão.&#10;→ Manutenção da biodiversidade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="7.2. Importância Econômica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Alimentação (frutas, verduras, grãos).&#10;→ Produção de medicamentos.&#10;→ Indústria têxtil (algodão, linho).&#10;→ Construção (madeira).&#10;→ Combustíveis (biocombustíveis)."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="8. Integração com Outros Sistemas Ecológicos"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As plantas interagem com diversos organismos:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Polinizadores (abelhas, aves, morcegos).&#10;→ Dispersores de sementes (animais).&#10;→ Fungos micorrízicos, que auxiliam na absorção de nutrientes.&#10;→ Bactérias fixadoras de nitrogênio, importantes para a fertilidade do solo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Essas interações reforçam o papel central das plantas na manutenção dos ecossistemas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="9. Conclusão Geral"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Botânica é essencial para compreender a vida na Terra. As plantas não apenas sustentam os ecossistemas, mas também são fundamentais para a sobrevivência humana."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Resumo dos pontos principais:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ A Botânica estuda as plantas.&#10;→ As plantas são organismos eucariontes, pluricelulares e autotróficos.&#10;→ A fotossíntese é o processo central para a produção de energia e oxigênio.&#10;→ Raiz, caule, folhas, flores, frutos e sementes desempenham funções específicas.&#10;→ As plantas são classificadas em briófitas, pteridófitas, gimnospermas e angiospermas.&#10;→ Possuem grande importância ecológica e econômica."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:contentDescription="Passo anterior"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        style="@style/BrainUp.Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

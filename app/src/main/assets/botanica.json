@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "botanica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O pigmento responsável pela cor verde das plantas e pela absorção da luz na fotossíntese é a:",
+    "alternativas": [
+      "Hemoglobina",
+      "Clorofila",
+      "Melanina",
+      "Celulose"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em qual organela ocorre a fotossíntese?",
+    "alternativas": [
+      "Mitocôndria",
+      "Ribossomo",
+      "Cloroplasto",
+      "Lisossomo"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: as plantas são organismos autotróficos, pois produzem seu próprio alimento.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual tecido condutor transporta a seiva elaborada (açúcares produzidos na fotossíntese)?",
+    "alternativas": [
+      "Xilema",
+      "Floema",
+      "Estômato",
+      "Mesófilo"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual grupo de plantas não possui vasos condutores?",
+    "alternativas": [
+      "Briófitas",
+      "Pteridófitas",
+      "Gimnospermas",
+      "Angiospermas"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Os pinheiros, que produzem sementes \"nuas\" e não têm frutos, pertencem às:",
+    "alternativas": [
+      "Briófitas",
+      "Pteridófitas",
+      "Gimnospermas",
+      "Angiospermas"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A transferência do pólen para o estigma é chamada de:",
+    "alternativas": [
+      "Fecundação",
+      "Polinização",
+      "Germinação",
+      "Dispersão"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "botanica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quais elementos a planta utiliza na fotossíntese?",
+    "alternativas": [
+      "Luz solar, água e gás carbônico",
+      "Luz solar, oxigênio e glicose",
+      "Água, oxigênio e amido",
+      "Gás carbônico, glicose e clorofila"
+    ],
+    "resposta": 0
+  }
+]

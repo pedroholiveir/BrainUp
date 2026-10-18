@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciashumanas">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Política"
+        android:textColor="@color/texto_primario"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/meuscrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/passo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O que é política?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A palavra política vem do grego polis, que significa cidade-estado. Na Grécia Antiga, a polis era mais do que uma cidade: era uma comunidade de cidadãos que participavam da vida pública."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por isso, política não significa apenas governo, eleições ou partidos. Na Filosofia, política é o estudo de como os seres humanos organizam a vida em sociedade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As principais perguntas da filosofia política são:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ O que é justiça?&#10;→ Quem deve governar?&#10;→ Qual é a melhor forma de governo?&#10;→ Qual é o papel do cidadão?&#10;→ Como garantir o bem comum?&#10;→ Até onde vai o poder do Estado?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A política na Grécia Antiga"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Grécia Antiga, especialmente Atenas, foi o berço da reflexão política ocidental."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Em Atenas surgiu a democracia ateniense, um sistema em que os cidadãos participavam diretamente das decisões políticas. Porém, é importante lembrar que essa democracia era limitada:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Apenas homens livres e cidadãos podiam participar.&#10;→ Mulheres, escravos e estrangeiros eram excluídos.&#10;→ A participação era direta, não por representantes."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Esse ambiente de debates públicos fez com que os filósofos gregos passassem a refletir sobre qual seria a melhor forma de organizar a sociedade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Sócrates e a política"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates não escreveu uma teoria política sistemática, mas suas ideias tiveram grande impacto na política."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O papel do cidadão"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates acreditava que o cidadão deveria participar da vida pública com consciência e responsabilidade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para ele, uma pessoa não deveria aceitar opiniões prontas ou seguir a maioria sem refletir. O cidadão precisa:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Pensar criticamente.&#10;→ Questionar as decisões injustas.&#10;→ Buscar a verdade.&#10;→ Agir de acordo com a razão."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A crítica à ignorância política"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates percebia que muitas pessoas participavam da política sem conhecimento suficiente. Por isso, ele valorizava o diálogo e a educação como formas de melhorar a vida pública."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sua condenação à morte mostra um conflito importante: Sócrates respeitava as leis da cidade, mas também acreditava que o cidadão deve questionar aquilo que considera injusto."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Platão e a política"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão foi o filósofo clássico que mais desenvolveu uma teoria política completa."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sua principal obra sobre política é A República, na qual ele descreve a cidade ideal."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A busca pela justiça"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão acreditava que a política deve ter como objetivo principal a justiça."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Mas o que é justiça para Platão?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para ele, justiça não significa apenas obedecer às leis. Justiça é a harmonia entre as partes da sociedade, em que cada pessoa cumpre a função para a qual está mais preparada."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="A divisão da sociedade"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão dividia a sociedade em três grupos principais:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Governantes: filósofos responsáveis por dirigir a cidade.&#10;→ Guerreiros: responsáveis pela defesa da cidade.&#10;→ Produtores: agricultores, artesãos e comerciantes, responsáveis pela produção de bens."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A justiça ocorre quando cada grupo desempenha sua função sem interferir indevidamente na função dos outros."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="O filósofo-rei"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A ideia mais famosa de Platão é a do filósofo-rei."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão acreditava que os governantes deveriam ser filósofos porque:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Conhecem a verdade.&#10;→ Buscam o bem comum.&#10;→ Não governam por interesse pessoal.&#10;→ São guiados pela razão e pela justiça."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para Platão, a maioria das pessoas vive presa às aparências, como no Mito da Caverna. O filósofo, ao alcançar o conhecimento verdadeiro, teria a obrigação de governar para conduzir a sociedade à justiça."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A crítica à democracia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão era crítico da democracia ateniense porque acreditava que ela podia permitir que pessoas sem conhecimento governassem."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Ele temia que a democracia se transformasse em demagogia, isto é, em um governo em que líderes manipulam o povo com discursos persuasivos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por isso, Platão defendia um governo baseado no conhecimento e na virtude, e não apenas na opinião da maioria."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Aristóteles e a política"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles também escreveu uma importante obra chamada Política."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Diferentemente de Platão, Aristóteles estudou as formas de governo existentes em diversas cidades gregas e buscou entender qual delas poderia promover o bem comum."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="O ser humano como animal político"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A frase mais famosa de Aristóteles sobre política é:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="“O homem é, por natureza, um animal político.”"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Isso significa que o ser humano só pode se desenvolver plenamente vivendo em sociedade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para Aristóteles:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Ninguém se realiza completamente sozinho.&#10;→ A vida em comunidade é natural ao ser humano.&#10;→ A política existe para organizar essa convivência."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="O objetivo do Estado"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles afirmava que o Estado não deve existir apenas para garantir a sobrevivência das pessoas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Seu verdadeiro objetivo é promover o bem comum, permitindo que os cidadãos alcancem uma vida boa e virtuosa."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Portanto, a política está diretamente ligada à ética: uma sociedade justa deve ajudar os cidadãos a desenvolverem virtudes como coragem, justiça e prudência."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="As formas de governo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles classificou as formas de governo em boas e corrompidas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As formas boas são aquelas que buscam o bem comum:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Monarquia: governo de um só, para o bem de todos.&#10;→ Aristocracia: governo de poucos virtuosos, para o bem de todos.&#10;→ Politia: governo de muitos cidadãos, para o bem comum."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As formas corrompidas são aquelas que buscam interesses particulares:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Tirania: corrupção da monarquia.&#10;→ Oligarquia: corrupção da aristocracia.&#10;→ Democracia: para Aristóteles, podia ser corrompida quando governava apenas em favor da maioria pobre, sem considerar o bem comum."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="É importante não confundir: a “democracia” criticada por Aristóteles não é exatamente a mesma democracia moderna."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Política e ética: a ligação fundamental"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para os filósofos clássicos, política e ética não podem ser separadas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Hoje, muitas vezes pensamos que política é apenas disputa de poder. Mas para Sócrates, Platão e Aristóteles, a política tinha um objetivo moral: construir uma sociedade justa e promover a vida boa."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Sócrates valorizava o cidadão crítico e consciente.&#10;→ Platão defendia governantes sábios e justos.&#10;→ Aristóteles via o Estado como meio para alcançar o bem comum."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O que mais cai no ENEM sobre política"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="No ENEM, as questões sobre política costumam cobrar principalmente:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ O significado de polis.&#10;→ A relação entre política e cidadania.&#10;→ A ideia do filósofo-rei em Platão.&#10;→ A crítica de Platão à democracia ateniense.&#10;→ O conceito aristotélico de animal político.&#10;→ O objetivo do Estado em Aristóteles.&#10;→ A relação entre ética e política."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Como não confundir Platão e Aristóteles"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Uma forma simples de memorizar é pensar assim:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Platão: política baseada no conhecimento da verdade; governantes filósofos.&#10;→ Aristóteles: política baseada na observação da realidade; busca do bem comum."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão imagina uma cidade ideal. Aristóteles analisa as cidades reais e procura a melhor forma de governo possível."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciashumanas"
+        android:contentDescription="Passo anterior"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        style="@style/BrainUp.Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciashumanas"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

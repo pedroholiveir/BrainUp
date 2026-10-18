@@ -13,10 +13,26 @@
     <fragment
         android:id="@+id/materiasFragment"
         android:name="com.example.brainupprototipo.MateriasFragment"
-        android:label="MateriasFragment" />
+        android:label="fragment_materias"
+        tools:layout="@layout/fragment_materias" />
     <fragment
         android:id="@+id/minhaContaFragment"
         android:name="com.example.brainupprototipo.MinhaContaFragment"
         android:label="fragment_minha_conta"
         tools:layout="@layout/fragment_minha_conta" />
+    <fragment
+        android:id="@+id/provasEnemFragment"
+        android:name="com.example.brainupprototipo.ProvasEnemFragment"
+        android:label="fragment_provas_enem"
+        tools:layout="@layout/fragment_provas_enem" />
+    <fragment
+        android:id="@+id/creditosFragment"
+        android:name="com.example.brainupprototipo.CreditosFragment"
+        android:label="fragment_creditos"
+        tools:layout="@layout/fragment_creditos" />
+    <fragment
+        android:id="@+id/redacaoResultadoFragment"
+        android:name="com.example.brainupprototipo.RedacaoResultadoFragment"
+        android:label="fragment_redacao_resultado"
+        tools:layout="@layout/fragment_redacao_resultado" />
 </navigation>

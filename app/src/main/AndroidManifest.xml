@@ -14,24 +14,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainUpPrototipo"
         tools:targetApi="31">
+
+        <!-- Tela de entrada: login -->
         <activity
-            android:name=".ConteudoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ExerciosActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MateriaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MateriaActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ConteudoActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ExerciosActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

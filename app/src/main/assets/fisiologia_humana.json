@@ -1,0 +1,126 @@
+[
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual ramo da Biologia estuda como os órgãos do corpo humano funcionam?",
+    "alternativas": [
+      "Anatomia",
+      "Fisiologia",
+      "Citologia",
+      "Embriologia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O sistema responsável pelas trocas gasosas é o:",
+    "alternativas": [
+      "Digestório",
+      "Circulatório",
+      "Respiratório",
+      "Excretor"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: as artérias levam o sangue do coração para o corpo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A capacidade do organismo de manter o equilíbrio interno é chamada de:",
+    "alternativas": [
+      "Homeostase",
+      "Digestão",
+      "Excreção",
+      "Fecundação"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em que estrutura dos pulmões ocorrem as trocas gasosas?",
+    "alternativas": [
+      "Traqueia",
+      "Brônquios",
+      "Alvéolos",
+      "Laringe"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual hormônio é produzido pelos testículos?",
+    "alternativas": [
+      "Estrogênio",
+      "Progesterona",
+      "Testosterona",
+      "Insulina"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quando a temperatura do corpo sobe e ocorre sudorese para resfriá-lo, temos um exemplo de:",
+    "alternativas": [
+      "Feedback negativo",
+      "Reprodução",
+      "Digestão mecânica",
+      "Mutação"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em que local geralmente ocorre a fecundação?",
+    "alternativas": [
+      "Vagina",
+      "Útero",
+      "Tubas uterinas",
+      "Ovários"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisiologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Onde ocorre principalmente a absorção dos nutrientes dos alimentos?",
+    "alternativas": [
+      "Estômago",
+      "Intestino delgado",
+      "Intestino grosso",
+      "Esôfago"
+    ],
+    "resposta": 1
+  }
+]

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciashumanas">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Introdução à Filosofia"
+        android:textColor="@color/texto_primario"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/meuscrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/passo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O que é Filosofia?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A palavra “filosofia” vem do grego antigo: philo significa “amor” e sophia significa “sabedoria”. Portanto, filosofia pode ser entendida como o amor pela sabedoria."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Mas essa definição não é suficiente. Filosofar não é apenas acumular conhecimentos; é questionar, investigar e buscar compreender as razões por trás das coisas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Desde a Antiguidade, os seres humanos se perguntam:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ O que é a verdade?&#10;→ Como devemos agir?&#10;→ O que é justiça?&#10;→ Qual é a melhor forma de organizar uma sociedade?&#10;→ Existe uma vida boa?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Filosofia nasce exatamente dessa atitude de não aceitar tudo de forma automática. O filósofo procura argumentos, analisa ideias e tenta construir explicações racionais sobre o mundo e sobre a vida humana."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O surgimento da Filosofia"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Filosofia surgiu na Grécia Antiga, aproximadamente no século VI a.C. Antes dela, muitas explicações sobre o mundo eram dadas por meio de mitos: narrativas que atribuíam aos deuses a origem dos fenômenos naturais e dos acontecimentos humanos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por exemplo, em vez de perguntar “qual é a causa física de uma tempestade?”, uma explicação mítica poderia dizer que a tempestade era provocada pela vontade de um deus."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Os primeiros filósofos gregos começaram a buscar explicações racionais, isto é, baseadas na observação, na lógica e na argumentação. Esse momento é chamado de passagem do mito para a razão."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Isso não significa que os mitos desapareceram, mas que surgiu uma nova forma de pensar: em vez de aceitar uma tradição sem questionar, o filósofo pergunta por que algo é verdadeiro."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Os principais ramos da Filosofia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Filosofia é muito ampla. Para facilitar o estudo, ela costuma ser dividida em áreas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Metafísica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Estuda a natureza da realidade: o que existe, o que é o ser, o que é o tempo, o espaço e a existência."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Epistemologia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Também chamada de teoria do conhecimento, investiga como conhecemos as coisas e quais são os limites do conhecimento humano."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Lógica"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Estuda as regras do raciocínio correto, ajudando a identificar argumentos válidos e falácias."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Estética"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Reflete sobre a arte, a beleza e a experiência estética."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Ética"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Estuda a ação humana, os valores morais e a pergunta: como devemos agir?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Filosofia Política"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Estuda a organização da sociedade, o poder, a justiça, o Estado e a participação dos cidadãos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por que estudar Filosofia?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Muitas vezes, os alunos perguntam: “para que serve a Filosofia?”"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Filosofia não serve apenas para passar em uma prova. Ela desenvolve habilidades essenciais para a vida:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Pensar de forma crítica.&#10;→ Argumentar com clareza.&#10;→ Identificar manipulações e falácias.&#10;→ Compreender diferentes pontos de vista.&#10;→ Refletir antes de tomar decisões.&#10;→ Participar conscientemente da sociedade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="No ENEM, a Filosofia aparece principalmente em questões que exigem interpretação de textos, compreensão de conceitos e relação entre ideias filosóficas e situações do cotidiano."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciashumanas"
+        android:contentDescription="Passo anterior"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        style="@style/BrainUp.Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciashumanas"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

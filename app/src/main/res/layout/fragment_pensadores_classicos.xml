@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciashumanas">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Pensadores Clássicos"
+        android:textColor="@color/texto_primario"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/meuscrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/passo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O contexto da Grécia Antiga"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Na Grécia Antiga, especialmente em Atenas, as pessoas começaram a participar mais da vida pública. Os cidadãos discutiam leis, julgamentos, guerras e decisões políticas. Isso criou um ambiente em que era necessário argumentar, convencer e justificar opiniões."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Além disso, os gregos começaram a substituir as explicações míticas — baseadas em deuses e lendas — por explicações racionais, baseadas na observação, na lógica e no debate."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Filosofia nasce, portanto, da passagem do mito para a razão. E é nesse contexto que surgem Sócrates, Platão e Aristóteles."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Sócrates: o filósofo do questionamento"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates viveu entre 469 a.C. e 399 a.C. em Atenas. Ele não escreveu nenhuma obra; tudo o que sabemos sobre ele vem principalmente dos escritos de seus discípulos, especialmente Platão."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates é importante pois mudou o foco da Filosofia. Antes dele, muitos filósofos estudavam a natureza, tentando descobrir a origem do universo. Sócrates passou a estudar o ser humano, suas ações, sua moral e sua capacidade de pensar."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O método socrático"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates ensinava por meio do diálogo. Ele conversava com as pessoas nas ruas de Atenas e fazia perguntas aparentemente simples, como:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ O que é a justiça?&#10;→ O que é a coragem?&#10;→ O que é a virtude?&#10;→ O que é o bem?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A maioria das pessoas acreditava saber responder, mas Sócrates mostrava que suas respostas eram contraditórias ou superficiais."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Esse processo é chamado de maiêutica, palavra que significa “arte de dar à luz”. Assim como uma parteira ajuda uma criança a nascer, Sócrates acreditava que o filósofo ajuda a pessoa a “dar à luz” o conhecimento que está dentro dela."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A maiêutica tem duas etapas principais:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Ironia socrática: Sócrates fingia ignorância e fazia perguntas para mostrar que a pessoa não sabia tanto quanto pensava.&#10;→ Maiêutica propriamente dita: depois de reconhecer sua ignorância, a pessoa era levada a construir um conhecimento mais verdadeiro por meio do diálogo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="“Só sei que nada sei”"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Essa é a frase mais associada a Sócrates. Ela não significa que ele não sabia nada, mas que reconhecer a própria ignorância é o primeiro passo para buscar o conhecimento."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para Sócrates, uma pessoa que acredita saber tudo deixa de questionar. Já quem reconhece que pode estar errado permanece aberto ao aprendizado."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Ética socrática"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates acreditava que o conhecimento conduz à virtude. Em outras palavras, quem conhece verdadeiramente o bem tende a praticá-lo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por isso, ele afirmava que o mal é resultado da ignorância. Uma pessoa age de forma errada porque não compreende plenamente o que é o bem."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A principal consequência dessa ideia é que a educação e o autoconhecimento são fundamentais para formar pessoas virtuosas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A condenação de Sócrates"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates foi acusado de corromper a juventude e de não respeitar os deuses da cidade. Em 399 a.C., foi condenado à morte e obrigado a beber cicuta, um veneno."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Mesmo tendo a oportunidade de fugir, ele aceitou a condenação, pois acreditava que deveria respeitar as leis da cidade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Platão: o filósofo das Ideias"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão foi discípulo de Sócrates e viveu entre 427 a.C. e 347 a.C. Após a morte de seu mestre, Platão decidiu registrar os diálogos socráticos e desenvolver suas próprias teorias."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Ele fundou a Academia, uma das primeiras instituições de ensino superior do mundo ocidental."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="A Teoria das Ideias"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A teoria mais importante de Platão é a Teoria das Ideias."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão acreditava que existem dois níveis de realidade:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ O mundo sensível, que é o mundo material que percebemos pelos sentidos. Ele é mutável, imperfeito e passageiro.&#10;→ O mundo inteligível, que é o mundo das Ideias ou Formas. Ele é eterno, perfeito e imutável."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por exemplo, existem muitas cadeiras no mundo material, e todas elas são diferentes e imperfeitas. Mas, para Platão, existe uma ideia perfeita de cadeira, que serve de modelo para todas as cadeiras concretas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Assim, as coisas do mundo material seriam apenas cópias imperfeitas das Ideias perfeitas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="O Mito da Caverna"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O Mito da Caverna, presente na obra A República, é a alegoria mais famosa de Platão e uma das que mais aparece no ENEM."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão descreve pessoas acorrentadas dentro de uma caverna, vendo apenas sombras projetadas na parede. Como nunca viram o mundo exterior, acreditam que as sombras são a realidade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Um dos prisioneiros consegue sair da caverna e vê o mundo real, iluminado pelo sol. Quando retorna para contar aos outros, eles não acreditam nele."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A alegoria representa:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ A ignorância, simbolizada pelos prisioneiros.&#10;→ As aparências, simbolizadas pelas sombras.&#10;→ O conhecimento verdadeiro, simbolizado pelo mundo exterior.&#10;→ A Filosofia, que liberta o ser humano da ignorância."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para o ENEM, é essencial entender que o Mito da Caverna mostra a passagem das aparências para a verdade, ou seja, da ignorância para o conhecimento."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Política em Platão"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Na obra A República, Platão descreve sua visão de uma sociedade ideal."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Ele acreditava que os governantes deveriam ser filósofos-reis, pois somente aqueles que conhecem a verdade e a justiça poderiam governar corretamente."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para Platão, a justiça ocorre quando cada pessoa cumpre sua função na sociedade de maneira harmoniosa."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O ponto central para o ENEM é: Platão defendia que o conhecimento filosófico deveria orientar a política."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Aristóteles: o filósofo da realidade concreta"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles viveu entre 384 a.C. e 322 a.C. e foi discípulo de Platão por cerca de vinte anos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Apesar de admirar seu mestre, Aristóteles discordou de várias ideias platônicas, especialmente da Teoria das Ideias."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="A crítica a Platão"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles acreditava que Platão separava demais o mundo das Ideias do mundo real."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para Aristóteles, a essência das coisas não está em um mundo separado, mas nas próprias coisas concretas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por exemplo, não existe uma “Ideia de cavalo” separada dos cavalos reais. A essência do cavalo está no próprio animal."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Essa diferença é fundamental para o ENEM: Platão valoriza o mundo das Ideias; Aristóteles valoriza a realidade concreta e a observação."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="O método aristotélico"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles foi um grande observador da natureza. Ele estudou biologia, física, lógica, ética e política."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Seu método consistia em:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Observar a realidade.&#10;→ Classificar os fenômenos.&#10;→ Buscar explicações racionais para as coisas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por isso, Aristóteles é considerado um dos precursores do pensamento científico."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Ética em Aristóteles"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A ética aristotélica é uma das partes mais cobradas no ENEM."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles afirmava que o objetivo da vida humana é alcançar a eudaimonia, palavra grega que significa felicidade ou vida plena."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Mas essa felicidade não é um prazer momentâneo. É uma vida vivida de acordo com a virtude."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="A teoria do meio-termo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles defendia que a virtude está no equilíbrio entre dois extremos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Por exemplo:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ A coragem está entre a covardia e a temeridade.&#10;→ A generosidade está entre a avareza e o esbanjamento."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Assim, ser virtuoso significa agir com moderação e racionalidade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para o ENEM, lembre-se: a ética de Aristóteles busca a felicidade por meio da prática equilibrada das virtudes."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Política em Aristóteles"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles afirmava que o ser humano é um animal político."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Isso significa que o homem só pode se realizar plenamente vivendo em sociedade."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Para ele, a finalidade do Estado é promover o bem comum e permitir que os cidadãos desenvolvam suas virtudes."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="O que realmente cai no ENEM"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O importante é dominar os conceitos que aparecem com frequência nas provas."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates: maiêutica, ironia socrática, autoconhecimento e “Só sei que nada sei”."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão: Teoria das Ideias, mundo sensível e inteligível, Mito da Caverna e filósofo-rei."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles: crítica a Platão, observação da realidade, eudaimonia, virtude e meio-termo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Como diferenciar os três filósofos"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Uma forma simples de não confundir os pensadores clássicos é lembrar da pergunta central de cada um:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sócrates: como o ser humano pode conhecer a si mesmo e agir corretamente?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Platão: como alcançar a verdade além das aparências?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Aristóteles: como viver bem por meio da virtude e da observação da realidade?"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciashumanas"
+        android:contentDescription="Passo anterior"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        style="@style/BrainUp.Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciashumanas"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

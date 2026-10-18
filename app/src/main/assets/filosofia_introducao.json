@@ -1,0 +1,84 @@
+[
+  {
+    "assunto": "filosofia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A palavra \"filosofia\", em grego, significa:",
+    "alternativas": [
+      "Amor à sabedoria",
+      "Estudo da natureza",
+      "Arte de governar",
+      "Ciência dos números"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a Filosofia surgiu na Grécia Antiga, por volta do século VI a.C.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A passagem do mito para a razão consiste em:",
+    "alternativas": [
+      "Abandonar toda tradição",
+      "Buscar explicações racionais, baseadas na observação e na lógica",
+      "Aceitar a explicação dos deuses sem questionar",
+      "Substituir a Filosofia pela religião"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual ramo da Filosofia estuda a ação humana e pergunta \"como devemos agir?\"",
+    "alternativas": [
+      "Lógica",
+      "Estética",
+      "Ética",
+      "Metafísica"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A teoria do conhecimento, que investiga como conhecemos e quais os limites do conhecimento, é a:",
+    "alternativas": [
+      "Epistemologia",
+      "Estética",
+      "Lógica",
+      "Filosofia Política"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Lógica é o ramo da Filosofia que:",
+    "alternativas": [
+      "Estuda a beleza e a arte",
+      "Estuda as regras do raciocínio correto",
+      "Estuda o poder e o Estado",
+      "Estuda o ser e a existência"
+    ],
+    "resposta": 1
+  }
+]

@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundocienciasnatureza">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Fisiologia Humana"
+        android:textColor="@color/texto_primario"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/meuscrollview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/btproximo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:id="@+id/passo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="1. O que é Fisiologia Humana?"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Fisiologia Humana é o ramo da Biologia que estuda como o corpo humano funciona. Enquanto a Anatomia descreve as estruturas do corpo (órgãos e tecidos), a Fisiologia busca entender como essas estruturas realizam suas funções e como trabalham juntas para manter a vida."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="1.1. Diferença entre Anatomia e Fisiologia"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Anatomia: estuda a forma e a estrutura dos órgãos (por exemplo, o formato do coração)."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Fisiologia: estuda o funcionamento desses órgãos (por exemplo, como o coração bombeia o sangue)."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="1.2. Por que estudar Fisiologia?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Compreender a fisiologia é essencial para:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Entender como o corpo mantém a vida.&#10;→ Reconhecer como surgem doenças.&#10;→ Compreender a importância de hábitos saudáveis.&#10;→ Relacionar o funcionamento dos sistemas do corpo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="2. Organização do Corpo Humano"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O corpo humano é organizado em níveis estruturais, do mais simples ao mais complexo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="2.1. Níveis de Organização"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Células&#10;→ São as unidades básicas da vida.&#10;→ Exemplo: neurônios, células musculares, células sanguíneas.&#10;→ Tecidos&#10;→ Conjunto de células semelhantes que desempenham uma função específica.&#10;→ Tipos principais:&#10;→ Conjuntivo: sustentação e transporte (ex.: sangue, ossos)&#10;→ Epitelial: revestimento e proteção.&#10;→ Muscular: movimento.&#10;→ Nervoso: transmissão de impulsos.&#10;→ Órgãos&#10;→ Formados por diferentes tecidos que atuam juntos.&#10;→ Exemplo: coração, pulmões, fígado.&#10;→ Sistemas&#10;→ Conjunto de órgãos que realizam funções integradas.&#10;→ Exemplo: sistema digestório, respiratório, circulatório.&#10;→ Organismo&#10;→ O conjunto de todos os sistemas funcionando de maneira integrada."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="3. Homeostase: O Equilíbrio do Corpo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.1. O que é Homeostase?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A homeostase é a capacidade do organismo de manter o equilíbrio interno, mesmo diante de mudanças no ambiente externo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.2. Por que a Homeostase é importante?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="As células só funcionam adequadamente dentro de condições específicas, como:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Temperatura corporal (~36,5–37°C)&#10;→ pH sanguíneo (~7,4)&#10;→ Níveis de glicose no sangue&#10;→ Concentração de oxigênio"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Qualquer alteração significativa pode comprometer o funcionamento do organismo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="3.3. Mecanismo de Feedback Negativo"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A maioria dos mecanismos fisiológicos funciona por feedback negativo, que atua para corrigir desvios e restaurar o equilíbrio."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Exemplo: Controle da temperatura corporal"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Quando a temperatura aumenta → ocorre sudorese para resfriar o corpo.&#10;→ Quando a temperatura diminui → ocorre tremor muscular para gerar calor."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4. Principais Sistemas do Corpo Humano"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.1. Sistema Digestório"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Função"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Responsável por transformar os alimentos em nutrientes que podem ser absorvidos e utilizados pelas células."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Etapas do Processo Digestivo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Ingestão: entrada do alimento pela boca.&#10;→ Digestão: quebra mecânica e química dos alimentos.&#10;→ Absorção: passagem dos nutrientes para o sangue (principalmente no intestino delgado).&#10;→ Eliminação: remoção dos resíduos não aproveitados."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Principais Órgãos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Boca&#10;→ Esôfago&#10;→ Estômago&#10;→ Intestino delgado&#10;→ Intestino grosso&#10;→ Fígado e pâncreas (órgãos acessórios)"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que a digestão é necessária?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Porque as moléculas dos alimentos são grandes e precisam ser quebradas em partes menores para atravessar a parede intestinal e chegar às células."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.2. Sistema Respiratório"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Função"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Realizar as trocas gasosas, fornecendo oxigênio (O₂) para as células e eliminando dióxido de carbono (CO₂)."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Principais Órgãos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Fossas nasais&#10;→ Faringe&#10;→ Laringe&#10;→ Traqueia&#10;→ Brônquios&#10;→ Pulmões&#10;→ Alvéolos"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Como ocorrem as trocas gasosas?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Nos alvéolos pulmonares, o oxigênio passa para o sangue e o dióxido de carbono é eliminado. Isso ocorre por difusão, devido à diferença de concentração dos gases."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que o oxigênio é essencial?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Porque ele é utilizado na respiração celular, processo que libera energia para o funcionamento das células."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.3. Sistema Circulatório (Cardiovascular)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Função"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Transportar substâncias pelo corpo, como:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Oxigênio&#10;→ Nutrientes&#10;→ Hormônios&#10;→ Resíduos metabólicos"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Componentes"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Coração: bomba que impulsiona o sangue.&#10;→ Vasos sanguíneos:&#10;→ Artérias: levam o sangue do coração para o corpo.&#10;→ Veias: trazem o sangue de volta ao coração.&#10;→ Capilares: locais de troca de substâncias.&#10;→ Sangue: tecido responsável pelo transporte."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que a circulação é indispensável?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Sem ela, o oxigênio e os nutrientes não chegariam às células, e os resíduos não seriam eliminados."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.4. Sistema Nervoso"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Função"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Coordenar e controlar as atividades do corpo, permitindo respostas rápidas aos estímulos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Divisão"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Sistema Nervoso Central (SNC):&#10;→ Encéfalo (cérebro, cerebelo e tronco encefálico)&#10;→ Medula espinhal&#10;→ Sistema Nervoso Periférico (SNP):&#10;→ Nervos que conectam o SNC ao resto do corpo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que ele é importante?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Ele integra as informações do ambiente e coordena respostas, como movimentos e sensações."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4.5. Sistema Reprodutor"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Função Geral"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O sistema reprodutor é responsável pela reprodução humana, garantindo a continuidade da espécie. Ele atua na produção das células sexuais (gametas), na secreção de hormônios sexuais e na criação das condições necessárias para que ocorra a fecundação e o desenvolvimento de um novo indivíduo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Principais funções:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Produção de gametas:&#10;→ Espermatozoides (masculinos)&#10;→ Óvulos (femininos)&#10;→ Produção de hormônios sexuais&#10;→ Possibilitar a fecundação&#10;→ Permitir o desenvolvimento do embrião (no organismo feminino)"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4.5.1. Sistema Reprodutor Masculino"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Função"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O sistema reprodutor masculino tem como principais funções:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Produzir os espermatozoides.&#10;→ Produzir o hormônio testosterona.&#10;→ Conduzir e depositar os espermatozoides no sistema reprodutor feminino durante a relação sexual."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Principais Estruturas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Testículos&#10;→ Função: Produção dos espermatozoides e do hormônio testosterona.&#10;→ Importância: A testosterona é responsável pelas características sexuais masculinas, como voz mais grave e crescimento de pelos.&#10;→ Epidídimo&#10;→ Função: Armazenamento e maturação dos espermatozoides, onde eles adquirem capacidade de locomoção.&#10;→ Ducto deferente&#10;→ Função: Condução dos espermatozoides do epidídimo até a uretra.&#10;→ Vesículas seminais&#10;→ Função: Produção de um líquido rico em nutrientes que fornece energia aos espermatozoides.&#10;→ Próstata&#10;→ Função: Produção de um líquido que protege e facilita a mobilidade dos espermatozoides.&#10;→ Uretra&#10;→ Função: Canal que conduz o sêmen para o exterior do corpo.&#10;→ Pênis&#10;→ Função: Órgão responsável pela deposição do sêmen no sistema reprodutor feminino."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Hormônio Principal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Testosterona&#10;→ Produção: Testículos.&#10;→ Funções:&#10;→ Desenvolvimento dos órgãos reprodutores masculinos.&#10;→ Surgimento das características sexuais secundárias.&#10;→ Estímulo à produção de espermatozoides."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4.5.2. Sistema Reprodutor Feminino"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Função"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O sistema reprodutor feminino é responsável por:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Produzir os óvulos.&#10;→ Produzir os hormônios estrogênio e progesterona.&#10;→ Permitir a fecundação.&#10;→ Proporcionar o desenvolvimento do embrião e do feto."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Principais Estruturas"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Ovários&#10;→ Função: Produção dos óvulos e dos hormônios estrogênio e progesterona.&#10;→ Tubas uterinas (trompas de Falópio)&#10;→ Função: Condução do óvulo do ovário até o útero.&#10;→ Importância: Geralmente é o local onde ocorre a fecundação.&#10;→ Útero&#10;→ Função: Local onde o embrião se implanta e se desenvolve durante a gestação.&#10;→ Colo do útero (cérvix)&#10;→ Função: Comunicar o útero com a vagina e permitir a passagem dos espermatozoides.&#10;→ Vagina&#10;→ Funções:&#10;→ Receber o pênis durante a relação sexual.&#10;→ Permitir a saída do fluxo menstrual.&#10;→ Servir como canal de parto."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Hormônios Principais"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Estrogênio&#10;→ Funções:&#10;→ Desenvolvimento das características sexuais femininas.&#10;→ Regulação do ciclo menstrual.&#10;→ Preparação do útero para uma possível gestação.&#10;→ Progesterona&#10;→ Funções:&#10;→ Preparar o útero para a implantação do embrião.&#10;→ Manter a gestação nas fases iniciais."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="4.5.3. Integração entre os Sistemas Reprodutores"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A reprodução humana depende da integração entre os sistemas reprodutores masculino e feminino. Durante a relação sexual, os espermatozoides são depositados na vagina e podem deslocar-se até as tubas uterinas. Se encontrarem um óvulo, ocorre a fecundação, formando o zigoto, que dará origem a um novo indivíduo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="4.6. Sistema Excretor (Urinário)"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Função"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Eliminar resíduos metabólicos e regular o equilíbrio de água e sais minerais."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Principais Órgãos"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Rins&#10;→ Ureteres&#10;→ Bexiga urinária&#10;→ Uretra"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Por que a excreção é essencial?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O acúmulo de substâncias tóxicas pode comprometer o funcionamento das células."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="5. Integração entre os Sistemas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="O corpo humano funciona de forma integrada. Nenhum sistema atua isoladamente."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Exemplo Integrado: Exercício Físico"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ Sistema muscular: realiza o movimento.&#10;→ Sistema respiratório: aumenta a captação de oxigênio.&#10;→ Sistema circulatório: transporta oxigênio e nutrientes.&#10;→ Sistema nervoso: coordena os movimentos."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Essa integração garante a manutenção da homeostase."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/passo12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="6. Conclusão Geral"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="A Fisiologia Humana permite compreender como o corpo mantém a vida por meio da interação entre células, tecidos, órgãos e sistemas. O conceito central é a homeostase, que assegura o equilíbrio interno necessário para o funcionamento adequado do organismo."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Em resumo:"
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="→ A fisiologia estuda o funcionamento do corpo.&#10;→ O organismo é organizado em níveis estruturais.&#10;→ Os sistemas corporais atuam de forma integrada.&#10;→ A manutenção da homeostase é essencial para a vida."
+                android:textSize="18sp"
+                android:textColor="@color/texto_primario" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btvoltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/botao_circular"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:contentDescription="Passo anterior"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:scaleX="-1"
+        android:src="@drawable/setadireita"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btproximo"
+        style="@style/BrainUp.Botao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/cienciasnatureza"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,49 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/fundomatematica"
+    android:background="@color/fundoApp"
     android:orientation="vertical">
 
-    <com.github.chrisbanes.photoview.PhotoView
-        android:id="@+id/imageViewPdf"
+    <LinearLayout
+        android:id="@+id/menupdf"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Provas do ENEM"
+            android:textColor="@color/texto_primario"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1º dia — Linguagens e Ciências Humanas"
+            android:textColor="@color/texto_secundario"
+            android:textSize="15sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/btprova21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="📄 Prova 2021"
+                        android:textColor="@color/texto_primario"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/setadireita"
+                        app:tint="@color/texto_secundario" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/btprova22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/card_bg"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="📄 Prova 2022"
+                        android:textColor="@color/texto_primario"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/setadireita"
+                        app:tint="@color/texto_secundario" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/visualizador"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:scaleType="fitCenter"/>
+        android:orientation="vertical"
+        android:visibility="gone">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
 
-        <ImageButton
-            android:id="@+id/btpdfvoltar"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@null"
-            android:gravity="center"
-            android:scaleType="fitCenter"
-            android:scaleX="-1"
-            android:src="@drawable/setadireita"
-            android:tint="@android:color/black"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/imageViewPdf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="Página da prova"
+                android:scaleType="fitCenter" />
 
-        <ImageButton
-            android:id="@+id/btpdfavancar"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:scaleType="fitCenter"
-            android:src="@drawable/setadireita"
-            android:tint="@android:color/black"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            <ProgressBar
+                android:id="@+id/progressoPdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </FrameLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="8dp">
 
-</FrameLayout>
+            <ImageButton
+                android:id="@+id/btpdfvoltar"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Página anterior"
+                android:padding="14dp"
+                android:scaleType="fitCenter"
+                android:scaleX="-1"
+                android:src="@drawable/setadireita"
+                app:tint="@color/azul_escuro" />
+
+            <TextView
+                android:id="@+id/textPagina"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Página"
+                android:textColor="@color/texto_primario"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btpdfavancar"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Próxima página"
+                android:padding="14dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/setadireita"
+                app:tint="@color/azul_escuro" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

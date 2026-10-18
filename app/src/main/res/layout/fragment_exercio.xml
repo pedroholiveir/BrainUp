@@ -1,220 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/fundoApp">
 
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.05" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:id="@+id/conteudoExercicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.05" />
+        android:padding="20dp">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.95" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
+            <TextView
+                android:id="@+id/textexercio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:text="Exercício 1"
+                android:textColor="@color/texto_primario"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/textDificuldade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fácil"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:indicatorColor="@color/azul_app"
+            app:trackColor="@color/white"
+            app:trackCornerRadius="4dp"
+            app:trackThickness="8dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/card_bg"
+                    app:cardCornerRadius="18dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="18dp">
+
+                        <ImageView
+                            android:id="@+id/imagempergunta"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="Imagem da questão"
+                            android:maxHeight="220dp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/textpergunta"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="4dp"
+                            android:textColor="@color/texto_primario"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:id="@+id/opcoes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btanterior"
+                style="@style/BrainUp.Botao.Secundario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="Anterior"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btavancar"
+                style="@style/BrainUp.Botao"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@color/azul_app"
+                android:text="Próxima" />
+        </LinearLayout>
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/textexercio"
-        android:layout_width="180dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:fontFamily="sans-serif-black"
-        android:text="Exercício 1"
-        android:textSize="30dp"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
-
-    <LinearLayout
-        android:id="@+id/multipla"
-        android:layout_width="350dp"
-        android:layout_height="650dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textexercio">
-
-        <ImageView
-            android:id="@+id/imagempergunta"
-            android:layout_width="370dp"
-            android:layout_height="200dp"
-            android:src="@drawable/doisdois" />
-
-        <TextView
-            android:id="@+id/textpergunta"
-            android:layout_width="324dp"
-            android:layout_height="107dp"
-            android:layout_marginTop="28dp"
-            android:text="Quanto é 2+2?"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toStartOf="@+id/guideline3"
-            app:layout_constraintHorizontal_bias="0.478"
-            app:layout_constraintStart_toStartOf="@+id/guideline2"
-            app:layout_constraintTop_toBottomOf="@+id/imagempergunta" />
-
-        <LinearLayout
-            android:layout_width="320dp"
-            android:layout_height="50dp"
-            android:gravity="center_horizontal"
-            android:layout_marginVertical="10dp"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btop1"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:elevation="8dp"
-                android:text="22"
-                android:textSize="20sp"
-                app:cornerRadius="10dp"
-                android:layout_marginHorizontal="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/bt0p2"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textpergunta" />
-
-            <Button
-                android:id="@+id/bt0p2"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                app:cornerRadius="10dp"
-                android:text="67"
-                android:layout_marginHorizontal="8dp"
-                android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/btop1"
-                app:layout_constraintTop_toTopOf="@+id/btop1" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="320dp"
-            android:layout_height="50dp"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/btop3"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                app:cornerRadius="10dp"
-                android:text="4"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/btop4"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btop1" />
-
-            <Button
-                android:id="@+id/btop4"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                app:cornerRadius="10dp"
-                android:text="2"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="8dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/btop3"
-                app:layout_constraintTop_toTopOf="@+id/btop3" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/vf"
-        android:layout_width="350dp"
-        android:layout_height="650dp"
-        android:layout_marginTop="10dp"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textexercio">
-
-        <ImageView
-            android:id="@+id/imagemperguntavf"
-            android:layout_width="370dp"
-            android:layout_height="200dp"
-            android:src="@drawable/doisdois" />
-
-        <TextView
-            android:id="@+id/textperguntavf"
-            android:layout_width="332dp"
-            android:layout_height="146dp"
-            android:layout_marginTop="28dp"
-            android:text="Quanto é 2+2?"
-            android:textSize="20sp" />
-
-        <LinearLayout
-            android:layout_width="355dp"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_horizontal"
-            android:padding="10dp">
-
-            <Button
-                android:id="@+id/verdadeiro"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:layout_marginHorizontal="8dp"
-                android:layout_marginBottom="10dp"
-                app:cornerRadius="10dp"
-                android:text="verdadeiro"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/falso"
-                android:layout_width="150dp"
-                android:layout_height="50dp"
-                android:layout_marginHorizontal="8dp"
-                app:cornerRadius="10dp"
-                android:elevation="8dp"
-                android:text="falso"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <ImageButton
-        android:id="@+id/btavancar"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="50dp"
-        android:background="@drawable/botao_circular"
-        android:src="@drawable/setadireita"
-        android:contentDescription="Avançar"
-        android:padding="10dp"
+        android:id="@+id/textVazio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:scaleType="fitCenter"
-        android:elevation="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"/>
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:padding="32dp"
+        android:text="Ainda não há questões para este conteúdo."
+        android:textColor="@color/texto_secundario"
+        android:textSize="18sp"
+        android:visibility="gone" />
+</FrameLayout>

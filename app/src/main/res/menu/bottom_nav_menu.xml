@@ -4,13 +4,14 @@
     <item
         android:id="@+id/inicioFragment"
         android:icon="@drawable/baseline_house_24"
-        android:title="Inicio"/>
+        android:title="Início" />
     <item
         android:id="@+id/materiasFragment"
         android:icon="@drawable/book"
-        android:title="Matéria" />
+        android:title="Matérias" />
     <item
         android:id="@+id/minhaContaFragment"
         android:icon="@drawable/iconprofile"
         android:title="Minha Conta" />
+
 </menu>

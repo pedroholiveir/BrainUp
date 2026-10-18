@@ -1,0 +1,8 @@
+[
+  {"assunto":"evolucao","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Quem propôs a teoria da seleção natural?","alternativas":["Lamarck","Mendel","Darwin","Pasteur"],"resposta":2},
+  {"assunto":"evolucao","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: a ideia de Lamarck de que características adquiridas na vida são herdadas não é aceita atualmente.","alternativas":["Verdadeiro","Falso"],"resposta":0},
+  {"assunto":"evolucao","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é a principal fonte de variabilidade genética em uma população?","alternativas":["Mutação e recombinação genética","Uso e desuso de órgãos","Seleção artificial","Alimentação"],"resposta":0},
+  {"assunto":"evolucao","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"O braço humano e a asa do morcego são exemplos de órgãos:","alternativas":["Análogos","Homólogos","Vestigiais","Artificiais"],"resposta":1},
+  {"assunto":"evolucao","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"A seleção natural direcional:","alternativas":["Favorece os valores intermediários","Favorece um dos extremos da característica","Favorece os dois extremos","Elimina toda a variabilidade"],"resposta":1},
+  {"assunto":"evolucao","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"A formação de novas espécies a partir do isolamento geográfico de populações é chamada de:","alternativas":["Mutação","Especiação","Deriva gênica","Seleção artificial"],"resposta":1}
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "etica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A palavra \"ética\" vem do grego ethos, que significa:",
+    "alternativas": [
+      "Lei",
+      "Modo de ser, caráter ou costume",
+      "Cidade",
+      "Verdade"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a moral é o conjunto de normas e costumes de uma sociedade e varia conforme a cultura e a época.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A diferença entre ética e moral é que a ética é:",
+    "alternativas": [
+      "A reflexão filosófica sobre a moral",
+      "Igual aos costumes",
+      "Uma lei escrita",
+      "Uma doutrina religiosa"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para Sócrates, o mal é resultado:",
+    "alternativas": [
+      "Da riqueza",
+      "Da ignorância",
+      "Da pobreza",
+      "Da vontade dos deuses"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na doutrina do meio-termo de Aristóteles, a coragem está entre:",
+    "alternativas": [
+      "Avareza e esbanjamento",
+      "Covardia e temeridade",
+      "Falta e excesso de alimento",
+      "Prazer e dor"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um problema ético da política contemporânea é:",
+    "alternativas": [
+      "Eleições periódicas",
+      "Corrupção",
+      "Separação dos poderes",
+      "Direito ao voto"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A ética que defende agir por dever, seguindo princípios universais, é associada a:",
+    "alternativas": [
+      "Aristóteles",
+      "Kant",
+      "Bentham",
+      "Platão"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "etica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O utilitarismo defende que a melhor ação é aquela que:",
+    "alternativas": [
+      "Segue a tradição",
+      "Produz a maior felicidade para o maior número de pessoas",
+      "Cumpre o dever a qualquer custo",
+      "Busca o prazer individual"
+    ],
+    "resposta": 1
+  }
+]

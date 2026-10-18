@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "politica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual poder é responsável por criar, discutir e aprovar as leis?",
+    "alternativas": [
+      "Executivo",
+      "Legislativo",
+      "Judiciário",
+      "Todos igualmente"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A teoria da separação dos poderes foi desenvolvida por:",
+    "alternativas": [
+      "Montesquieu",
+      "Aristóteles",
+      "Platão",
+      "Sócrates"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: Estado e governo são a mesma coisa, pois ambos mudam a cada eleição.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A forma de democracia em que os cidadãos elegem representantes é a:",
+    "alternativas": [
+      "Direta",
+      "Representativa",
+      "Teocrática",
+      "Oligárquica"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual documento reúne os direitos humanos, fortalecidos após a Segunda Guerra Mundial?",
+    "alternativas": [
+      "Declaração Universal dos Direitos Humanos",
+      "Carta Magna de 1215",
+      "Constituição de 1824",
+      "Tratado de Versalhes"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A ideologia que defende a liberdade individual, a propriedade privada e a limitação do poder do Estado é o:",
+    "alternativas": [
+      "Socialismo",
+      "Liberalismo",
+      "Conservadorismo",
+      "Comunismo"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A divisão intensa da sociedade em grupos de opiniões opostas, que dificulta o diálogo, é chamada de:",
+    "alternativas": [
+      "Polarização política",
+      "Globalização",
+      "Cidadania",
+      "Soberania"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quando a população sente que os governantes não representam seus interesses, ocorre uma:",
+    "alternativas": [
+      "Crise de representatividade",
+      "Separação dos poderes",
+      "Reforma agrária",
+      "Eleição direta"
+    ],
+    "resposta": 0
+  }
+]

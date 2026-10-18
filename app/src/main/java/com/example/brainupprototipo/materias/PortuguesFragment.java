@@ -4,25 +4,32 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import com.example.brainupprototipo.InsetsUtil;
 import com.example.brainupprototipo.R;
+import com.example.brainupprototipo.RedacaoFragment;
+import com.example.brainupprototipo.conteudos.InterpretacaoTextoFragment;
 
 public class PortuguesFragment extends Fragment {
 
     public PortuguesFragment() {}
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_portugues, container, false);
+        InsetsUtil.aplicar(view);
 
-        // 🔥 pegando a Activity e mudando a status bar
-        Window window = requireActivity().getWindow();
-        window.setStatusBarColor(getResources().getColor(R.color.portugues));
-
+        view.findViewById(R.id.btinterpretacao).setOnClickListener(v -> abrir(new InterpretacaoTextoFragment()));
         return view;
+    }
+
+    private void abrir(Fragment fragment) {
+        requireActivity().getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, fragment)
+                .addToBackStack(null)
+                .commit();
     }
 }

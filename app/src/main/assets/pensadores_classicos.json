@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "filosofia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quem ensinava por meio de perguntas e diálogo, sem deixar obras escritas?",
+    "alternativas": [
+      "Platão",
+      "Aristóteles",
+      "Sócrates",
+      "Tales"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A frase \"Só sei que nada sei\" é associada a:",
+    "alternativas": [
+      "Sócrates",
+      "Platão",
+      "Aristóteles",
+      "Kant"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: Platão fundou a Academia, uma das primeiras instituições de ensino superior do Ocidente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "No Mito da Caverna, as sombras projetadas na parede representam:",
+    "alternativas": [
+      "O conhecimento verdadeiro",
+      "As aparências",
+      "A Filosofia",
+      "A justiça"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para Platão, os governantes ideais deveriam ser:",
+    "alternativas": [
+      "Guerreiros",
+      "Comerciantes",
+      "Filósofos-reis",
+      "Sacerdotes"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Aristóteles critica a Teoria das Ideias de Platão porque ela:",
+    "alternativas": [
+      "Negava a existência dos seres vivos",
+      "Separava demais o mundo das Ideias do mundo real",
+      "Defendia a ignorância",
+      "Rejeitava a lógica"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A maiêutica socrática consiste em:",
+    "alternativas": [
+      "Ensinar fórmulas prontas",
+      "Ajudar a pessoa a \"dar à luz\" o conhecimento por meio do diálogo",
+      "Decorar textos clássicos",
+      "Escrever tratados"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Segundo Aristóteles, o objetivo da vida humana é alcançar a:",
+    "alternativas": [
+      "Riqueza",
+      "Eudaimonia (felicidade ou vida plena)",
+      "Fama",
+      "Ausência de desejos"
+    ],
+    "resposta": 1
+  }
+]

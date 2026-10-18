@@ -1,0 +1,98 @@
+[
+  {
+    "assunto": "politica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A palavra \"política\" vem do grego polis, que significa:",
+    "alternativas": [
+      "Povo",
+      "Cidade-estado",
+      "Rei",
+      "Lei"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: na democracia ateniense, mulheres, escravos e estrangeiros participavam das decisões.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para Platão, a justiça ocorre quando:",
+    "alternativas": [
+      "Todos obedecem a um rei",
+      "Cada grupo cumpre sua função em harmonia",
+      "A maioria decide tudo",
+      "Não existem leis"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Platão criticava a democracia ateniense porque ela podia:",
+    "alternativas": [
+      "Excluir os ricos",
+      "Permitir que pessoas sem conhecimento governassem, levando à demagogia",
+      "Ter muitos juízes",
+      "Tomar decisões rápidas demais"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A frase \"o homem é, por natureza, um animal político\" é de:",
+    "alternativas": [
+      "Sócrates",
+      "Platão",
+      "Aristóteles",
+      "Montesquieu"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para Aristóteles, o objetivo do Estado é:",
+    "alternativas": [
+      "Garantir apenas a sobrevivência",
+      "Promover o bem comum e permitir o desenvolvimento das virtudes",
+      "Aumentar os impostos",
+      "Controlar a opinião pública"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "politica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na classificação de Aristóteles, a tirania é a corrupção da:",
+    "alternativas": [
+      "Aristocracia",
+      "Monarquia",
+      "Politia",
+      "Democracia"
+    ],
+    "resposta": 1
+  }
+]
