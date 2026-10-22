@@ -1,0 +1,98 @@
+[
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Tratado de Tordesilhas (1494) dividiu as terras descobertas entre:",
+    "alternativas": [
+      "Portugal e Espanha",
+      "Portugal e França",
+      "Espanha e Inglaterra",
+      "Portugal e Holanda"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O primeiro produto explorado economicamente pelos portugueses no Brasil foi:",
+    "alternativas": [
+      "Açúcar",
+      "Ouro",
+      "Pau-brasil",
+      "Café"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: as capitanias hereditárias foram doadas a donatários, que administravam e exploravam os lotes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A base da economia açucareira colonial era:",
+    "alternativas": [
+      "Policultura com mão de obra assalariada",
+      "Monocultura em latifúndios com trabalho escravo",
+      "Pequenas propriedades familiares",
+      "Indústria têxtil"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O quilombo mais famoso do período colonial, liderado por Zumbi, foi:",
+    "alternativas": [
+      "Canudos",
+      "Palmares",
+      "Contestado",
+      "Caldeirão"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O imposto de 20% sobre o ouro extraído era o:",
+    "alternativas": [
+      "Quinto",
+      "Dízimo",
+      "Derrama",
+      "Capitação"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual medida de 1808 alterou a relação comercial da colônia com a metrópole?",
+    "alternativas": [
+      "Abertura dos portos às nações amigas",
+      "Criação do Governo-Geral",
+      "Fim do tráfico negreiro",
+      "Proclamação da Independência"
+    ],
+    "resposta": 0
+  }
+]

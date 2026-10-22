@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O meridiano de origem (0°) é o de:",
+    "alternativas": [
+      "Greenwich",
+      "Tordesilhas",
+      "Paris",
+      "Brasília"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A linha imaginária que divide a Terra em hemisfério norte e sul é:",
+    "alternativas": [
+      "O meridiano de Greenwich",
+      "O Equador",
+      "O Trópico de Capricórnio",
+      "O Círculo Polar Ártico"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a latitude mede a distância angular em relação ao Equador.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em um mapa com escala 1:50.000, 4 cm representam na realidade:",
+    "alternativas": [
+      "200 m",
+      "2 km",
+      "20 km",
+      "500 m"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual escala mostra maior nível de detalhes?",
+    "alternativas": [
+      "1:1.000.000",
+      "1:100.000",
+      "1:10.000",
+      "1:5.000.000"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A projeção de Mercator é conhecida por:",
+    "alternativas": [
+      "Conservar as áreas",
+      "Aumentar as áreas em altas latitudes",
+      "Representar bem os polos",
+      "Usar um cone"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Cada fuso horário corresponde a quantos graus de longitude?",
+    "alternativas": [
+      "10°",
+      "15°",
+      "30°",
+      "24°"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Se em Greenwich são 12h, em um local situado 3 fusos a leste será:",
+    "alternativas": [
+      "9h",
+      "15h",
+      "12h",
+      "3h"
+    ],
+    "resposta": 1
+  }
+]

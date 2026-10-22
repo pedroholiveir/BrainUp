@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O crescimento vegetativo é calculado pela diferença entre:",
+    "alternativas": [
+      "Natalidade e mortalidade",
+      "Imigração e emigração",
+      "Renda e despesa",
+      "População urbana e rural"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O deslocamento diário de pessoas entre a cidade onde moram e o local de trabalho é a:",
+    "alternativas": [
+      "Êxodo rural",
+      "Migração pendular",
+      "Migração sazonal",
+      "Imigração"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a densidade demográfica é a população dividida pela área.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O IDH considera três dimensões:",
+    "alternativas": [
+      "Renda, educação e longevidade",
+      "Clima, relevo e vegetação",
+      "Exportação, importação e inflação",
+      "Natalidade, mortalidade e migração"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A urbanização brasileira se acelerou principalmente a partir de:",
+    "alternativas": [
+      "1500",
+      "1850",
+      "1950",
+      "2010"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A junção física de áreas urbanas de cidades vizinhas é chamada de:",
+    "alternativas": [
+      "Conurbação",
+      "Gentrificação",
+      "Desertificação",
+      "Migração pendular"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Mercosul foi criado em 1991 pelo Tratado de:",
+    "alternativas": [
+      "Assunção",
+      "Tordesilhas",
+      "Versalhes",
+      "Maastricht"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A globalização intensificou a divisão internacional do trabalho, na qual:",
+    "alternativas": [
+      "Todos os países produzem os mesmos bens",
+      "Etapas da produção se distribuem entre países conforme custos e vantagens",
+      "Não existem empresas multinacionais",
+      "As fronteiras impedem o comércio"
+    ],
+    "resposta": 1
+  }
+]

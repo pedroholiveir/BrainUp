@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O julgamento de outras culturas a partir dos valores da própria cultura é:",
+    "alternativas": [
+      "Etnocentrismo",
+      "Relativismo cultural",
+      "Sincretismo",
+      "Alteridade"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Fazem parte da formação cultural brasileira as matrizes:",
+    "alternativas": [
+      "Apenas europeia",
+      "Indígena, africana e europeia, entre outras",
+      "Apenas africana",
+      "Apenas asiática"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a cultura é aprendida e transmitida socialmente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O relativismo cultural defende que:",
+    "alternativas": [
+      "Existe uma cultura superior às demais",
+      "Cada cultura deve ser compreendida em seus próprios termos",
+      "Todas as culturas devem ser unificadas",
+      "Cultura não muda"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A fusão de elementos de religiões diferentes é chamada de:",
+    "alternativas": [
+      "Sincretismo",
+      "Etnocentrismo",
+      "Anomia",
+      "Alienação"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A socialização primária ocorre principalmente:",
+    "alternativas": [
+      "Na universidade",
+      "Na família",
+      "No trabalho",
+      "Nas redes sociais"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O conceito de indústria cultural foi desenvolvido por:",
+    "alternativas": [
+      "Adorno e Horkheimer",
+      "Durkheim e Weber",
+      "Platão e Aristóteles",
+      "Comte e Spencer"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O patrimônio cultural imaterial inclui:",
+    "alternativas": [
+      "Edifícios históricos",
+      "Saberes, celebrações e formas de expressão",
+      "Obras de arte em museus",
+      "Monumentos"
+    ],
+    "resposta": 1
+  }
+]

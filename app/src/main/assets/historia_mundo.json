@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Revolução Industrial teve início em qual país?",
+    "alternativas": [
+      "Estados Unidos",
+      "Alemanha",
+      "Inglaterra",
+      "França"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual evento foi o estopim da Primeira Guerra Mundial?",
+    "alternativas": [
+      "Crise de 1929",
+      "Assassinato do arquiduque Francisco Ferdinando",
+      "Queda do Muro de Berlim",
+      "Invasão da Polônia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a Segunda Guerra Mundial terminou em 1945.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O tratado que impôs duras condições à Alemanha após a Primeira Guerra foi:",
+    "alternativas": [
+      "Tratado de Tordesilhas",
+      "Tratado de Versalhes",
+      "Tratado de Utrecht",
+      "Tratado de Berlim"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A crise econômica de 1929 teve origem:",
+    "alternativas": [
+      "Na bolsa de valores de Nova York",
+      "Na bolsa de Londres",
+      "No Japão",
+      "Na Revolução Russa"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Guerra Fria foi a disputa de influência entre:",
+    "alternativas": [
+      "Alemanha e França",
+      "Estados Unidos e União Soviética",
+      "China e Japão",
+      "Reino Unido e Espanha"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A organização militar criada em 1949 pelos países capitalistas ocidentais foi a:",
+    "alternativas": [
+      "OTAN",
+      "Pacto de Varsóvia",
+      "ONU",
+      "OMC"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A queda do Muro de Berlim ocorreu em:",
+    "alternativas": [
+      "1961",
+      "1989",
+      "1945",
+      "1991"
+    ],
+    "resposta": 1
+  }
+]

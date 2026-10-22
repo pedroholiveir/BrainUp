@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A unidade de energia no SI é o:",
+    "alternativas": [
+      "Watt",
+      "Joule",
+      "Newton",
+      "Volt"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A energia associada ao movimento é a:",
+    "alternativas": [
+      "Potencial",
+      "Cinética",
+      "Térmica",
+      "Química"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a energia pode ser criada a partir do nada.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A potência é definida como:",
+    "alternativas": [
+      "Trabalho dividido pelo tempo",
+      "Força vezes massa",
+      "Massa vezes velocidade",
+      "Energia vezes tempo"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um chuveiro de 5000 W ligado por 2 h consome:",
+    "alternativas": [
+      "2,5 kWh",
+      "10 kWh",
+      "5 kWh",
+      "1 kWh"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um corpo de 2 kg a 3 m/s tem energia cinética de:",
+    "alternativas": [
+      "6 J",
+      "9 J",
+      "18 J",
+      "3 J"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Ao cair de 5 m (g = 10 m/s², sem atrito), a velocidade final é:",
+    "alternativas": [
+      "5 m/s",
+      "10 m/s",
+      "50 m/s",
+      "25 m/s"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A maior parte da energia elétrica brasileira vem de usinas:",
+    "alternativas": [
+      "Nucleares",
+      "Hidrelétricas",
+      "Termelétricas a carvão",
+      "Solares"
+    ],
+    "resposta": 1
+  }
+]

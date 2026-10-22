@@ -35,7 +35,47 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/cienciashumanas"
-            android:text="História" />
+            android:text="História ▾" />
+        <LinearLayout
+            android:id="@+id/menuhistoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/bthcolonia"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Brasil Colônia" />
+            <Button
+                android:id="@+id/bthimperio"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Brasil Império" />
+            <Button
+                android:id="@+id/bthrepublica"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Brasil República" />
+            <Button
+                android:id="@+id/bthmundo"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Mundo Contemporâneo" />
+        </LinearLayout>
         <Button
             android:id="@+id/btgeografia"
             style="@style/BrainUp.Botao"
@@ -43,7 +83,39 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/cienciashumanas"
-            android:text="Geografia" />
+            android:text="Geografia ▾" />
+        <LinearLayout
+            android:id="@+id/menugeografia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btgcartografia"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Cartografia" />
+            <Button
+                android:id="@+id/btgclima"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Clima e Biomas do Brasil" />
+            <Button
+                android:id="@+id/btgpopulacao"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="População, Cidades e Globalização" />
+        </LinearLayout>
         <Button
             android:id="@+id/btfilosofia"
             style="@style/BrainUp.Botao"
@@ -107,6 +179,38 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/cienciashumanas"
-            android:text="Sociologia" />
+            android:text="Sociologia ▾" />
+        <LinearLayout
+            android:id="@+id/menusociologia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btsintro"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Introdução à Sociologia" />
+            <Button
+                android:id="@+id/btscultura"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Cultura e Diversidade" />
+            <Button
+                android:id="@+id/btstrabalho"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciashumanas"
+                android:text="Trabalho, Desigualdade e Cidadania" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

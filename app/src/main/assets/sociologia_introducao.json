@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Sociologia surgiu no contexto de:",
+    "alternativas": [
+      "Idade Média",
+      "Revoluções Industrial e Francesa (séc. XIX)",
+      "Antiguidade clássica",
+      "Guerra Fria"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O sociólogo que desenvolveu o conceito de fato social foi:",
+    "alternativas": [
+      "Karl Marx",
+      "Émile Durkheim",
+      "Max Weber",
+      "Auguste Comte"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: para Marx, a história é marcada pela luta de classes.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Segundo Durkheim, o fato social é:",
+    "alternativas": [
+      "Individual e interior",
+      "Exterior ao indivíduo, geral e coercitivo",
+      "Sempre voluntário",
+      "Restrito à economia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Max Weber defendia que a Sociologia deve:",
+    "alternativas": [
+      "Ignorar o sentido das ações",
+      "Compreender o sentido que os indivíduos dão às suas ações",
+      "Estudar apenas fatos naturais",
+      "Eliminar a política"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para Marx, a burguesia é a classe que:",
+    "alternativas": [
+      "Vende sua força de trabalho",
+      "Possui os meios de produção",
+      "Governa a Igreja",
+      "Vive no campo"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O conceito de anomia, de Durkheim, refere-se:",
+    "alternativas": [
+      "A excesso de normas",
+      "Ao enfraquecimento ou ausência de normas sociais",
+      "À luta de classes",
+      "À burocracia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A \"ação racional com relação a fins\", em Weber, é aquela em que o indivíduo:",
+    "alternativas": [
+      "Age por tradição",
+      "Age por emoção",
+      "Calcula os meios adequados para atingir um objetivo",
+      "Age por valores sem considerar as consequências"
+    ],
+    "resposta": 2
+  }
+]

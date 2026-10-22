@@ -23,6 +23,7 @@ public class PortuguesFragment extends Fragment {
         InsetsUtil.aplicar(view);
 
         view.findViewById(R.id.btinterpretacao).setOnClickListener(v -> abrir(new InterpretacaoTextoFragment()));
+        view.findViewById(R.id.btredacao).setOnClickListener(v -> abrir(new RedacaoFragment()));
         return view;
     }
 

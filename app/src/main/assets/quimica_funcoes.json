@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma solução com pH 3 é:",
+    "alternativas": [
+      "Ácida",
+      "Básica",
+      "Neutra",
+      "Salina"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O NaOH é um exemplo de:",
+    "alternativas": [
+      "Ácido",
+      "Base",
+      "Sal",
+      "Óxido"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a reação entre um ácido e uma base forma sal e água.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A reação HCl + NaOH → NaCl + H₂O é de:",
+    "alternativas": [
+      "Síntese",
+      "Neutralização",
+      "Decomposição",
+      "Combustão"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Lei de Lavoisier afirma que:",
+    "alternativas": [
+      "Em um sistema fechado a massa se conserva",
+      "Todo gás ocupa 22,4 L",
+      "O pH da água é sempre 7",
+      "Os átomos são indivisíveis"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A massa molar da água (H = 1, O = 16) é:",
+    "alternativas": [
+      "16 g/mol",
+      "18 g/mol",
+      "10 g/mol",
+      "32 g/mol"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quantos gramas de água se formam a partir de 4 g de H₂ e 32 g de O₂ (2 H₂ + O₂ → 2 H₂O)?",
+    "alternativas": [
+      "18 g",
+      "36 g",
+      "32 g",
+      "72 g"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O valor aproximado da constante de Avogadro é:",
+    "alternativas": [
+      "6,02 × 10²³",
+      "3,0 × 10⁸",
+      "9,8",
+      "1,6 × 10⁻¹⁹"
+    ],
+    "resposta": 0
+  }
+]

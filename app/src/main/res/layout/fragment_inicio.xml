@@ -41,8 +41,8 @@
             </LinearLayout>
 
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
                 android:contentDescription="Logo BrainUp"
                 android:src="@drawable/logo" />
         </LinearLayout>

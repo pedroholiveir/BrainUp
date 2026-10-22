@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A velocidade média é dada por:",
+    "alternativas": [
+      "Δs/Δt",
+      "Δt/Δs",
+      "a·t",
+      "m·g"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Para converter 72 km/h em m/s, deve-se:",
+    "alternativas": [
+      "Dividir por 3,6 (20 m/s)",
+      "Multiplicar por 3,6 (259 m/s)",
+      "Dividir por 10 (7,2 m/s)",
+      "Não é possível converter"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: no movimento uniforme a aceleração é nula.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um carro a 20 m/s em movimento uniforme percorre em 15 s:",
+    "alternativas": [
+      "30 m",
+      "300 m",
+      "3 m",
+      "150 m"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um corpo parte do repouso com aceleração de 2 m/s². Após 5 s, sua velocidade é:",
+    "alternativas": [
+      "2,5 m/s",
+      "7 m/s",
+      "10 m/s",
+      "25 m/s"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em um gráfico velocidade × tempo, a área sob a curva representa:",
+    "alternativas": [
+      "Aceleração",
+      "Deslocamento",
+      "Força",
+      "Energia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um objeto cai em queda livre por 3 s (g = 10 m/s²). A altura percorrida é:",
+    "alternativas": [
+      "15 m",
+      "30 m",
+      "45 m",
+      "90 m"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "No ponto mais alto de um lançamento vertical, a velocidade do corpo é:",
+    "alternativas": [
+      "Máxima",
+      "Zero",
+      "Igual à inicial",
+      "Negativa e máxima"
+    ],
+    "resposta": 1
+  }
+]

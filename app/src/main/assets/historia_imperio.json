@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Independência do Brasil foi proclamada em:",
+    "alternativas": [
+      "7 de setembro de 1822",
+      "15 de novembro de 1889",
+      "13 de maio de 1888",
+      "22 de abril de 1500"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O primeiro imperador do Brasil foi:",
+    "alternativas": [
+      "D. Pedro I",
+      "D. Pedro II",
+      "D. João VI",
+      "Deodoro da Fonseca"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a Lei Áurea, de 1888, aboliu a escravidão no Brasil.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Poder Moderador, criado pela Constituição de 1824, era exercido:",
+    "alternativas": [
+      "Pelo Senado",
+      "Pelo imperador",
+      "Pelo Supremo Tribunal",
+      "Pelos presidentes de província"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Lei do Ventre Livre (1871) determinava que:",
+    "alternativas": [
+      "Todos os escravizados estavam livres",
+      "Filhos de escravizadas nascidos a partir da lei seriam livres",
+      "O tráfico de escravizados era proibido",
+      "Escravizados acima de 60 anos eram libertos"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A principal atividade econômica do Segundo Reinado era:",
+    "alternativas": [
+      "Cana-de-açúcar",
+      "Mineração de ouro",
+      "Café",
+      "Borracha"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Revolução Farroupilha (1835–1845) ocorreu em qual região?",
+    "alternativas": [
+      "Nordeste",
+      "Rio Grande do Sul",
+      "Pará",
+      "Minas Gerais"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A proclamação da República (1889) foi precedida por:",
+    "alternativas": [
+      "Questão Religiosa, Questão Militar e abolição sem indenização aos fazendeiros",
+      "Apenas a Guerra do Paraguai",
+      "A vinda da família real",
+      "A Revolução Industrial brasileira"
+    ],
+    "resposta": 0
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O carbono é um elemento:",
+    "alternativas": [
+      "Monovalente",
+      "Tetravalente",
+      "Divalente",
+      "Trivalente"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O composto mais simples da química orgânica, CH₄, é o:",
+    "alternativas": [
+      "Etano",
+      "Metano",
+      "Propano",
+      "Butano"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: o etanol é um álcool.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O grupo funcional –COOH caracteriza um:",
+    "alternativas": [
+      "Álcool",
+      "Ácido carboxílico",
+      "Aldeído",
+      "Éter"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O prefixo \"prop\" indica quantos carbonos?",
+    "alternativas": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A separação do petróleo em frações (gasolina, diesel etc.) é feita por:",
+    "alternativas": [
+      "Filtração",
+      "Destilação fracionada",
+      "Decantação",
+      "Evaporação simples"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A combustão completa de um hidrocarboneto produz:",
+    "alternativas": [
+      "CO₂ e H₂O",
+      "CO e carbono",
+      "Apenas H₂",
+      "O₂ e N₂"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A acetona pertence à função:",
+    "alternativas": [
+      "Cetona",
+      "Aldeído",
+      "Éster",
+      "Amina"
+    ],
+    "resposta": 0
+  }
+]

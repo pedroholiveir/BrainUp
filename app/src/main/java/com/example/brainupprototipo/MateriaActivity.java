@@ -32,7 +32,6 @@ public class MateriaActivity extends AppCompatActivity {
                 case "cienciash":  fragment = new Cienciashumanas(); break;
                 case "cienciasn":  fragment = new CienciasNaturezaFragment(); break;
                 case "redacao":    fragment = new RedacaoFragment(); break;
-
             }
         }
 

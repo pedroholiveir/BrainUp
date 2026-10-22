@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A unidade de resistência elétrica é o:",
+    "alternativas": [
+      "Volt",
+      "Ohm",
+      "Ampère",
+      "Watt"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Cargas elétricas de mesmo sinal:",
+    "alternativas": [
+      "Se atraem",
+      "Se repelem",
+      "Não interagem",
+      "Se anulam"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: as instalações elétricas residenciais usam ligação em paralelo.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Pela 1ª Lei de Ohm, com U = 12 V e R = 4 Ω a corrente é:",
+    "alternativas": [
+      "48 A",
+      "3 A",
+      "8 A",
+      "0,33 A"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Dois resistores de 2 Ω e 3 Ω ligados em série têm resistência equivalente de:",
+    "alternativas": [
+      "1,2 Ω",
+      "5 Ω",
+      "6 Ω",
+      "0,5 Ω"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A potência elétrica pode ser calculada por:",
+    "alternativas": [
+      "P = U · i",
+      "P = U / i",
+      "P = R / i",
+      "P = i + U"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em um circuito em série, se uma lâmpada queima:",
+    "alternativas": [
+      "As demais continuam acesas",
+      "Todas apagam, pois o circuito é interrompido",
+      "A corrente aumenta",
+      "Nada muda"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um aparelho de 100 W ligado por 10 h consome:",
+    "alternativas": [
+      "1 kWh",
+      "10 kWh",
+      "0,1 kWh",
+      "100 kWh"
+    ],
+    "resposta": 0
+  }
+]

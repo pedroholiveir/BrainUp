@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A política do café com leite era a alternância na presidência entre:",
+    "alternativas": [
+      "São Paulo e Minas Gerais",
+      "Rio de Janeiro e Bahia",
+      "Rio Grande do Sul e Pernambuco",
+      "Paraná e Goiás"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Getúlio Vargas chegou ao poder em:",
+    "alternativas": [
+      "1889",
+      "1930",
+      "1964",
+      "1985"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a Consolidação das Leis do Trabalho (CLT) foi criada durante o governo de Getúlio Vargas.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O \"voto de cabresto\" era:",
+    "alternativas": [
+      "Voto livre e secreto",
+      "Voto controlado pelos coronéis",
+      "Voto obrigatório para mulheres",
+      "Voto por correspondência"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Estado Novo (1937–1945) caracterizou-se por:",
+    "alternativas": [
+      "Democracia plena",
+      "Ditadura, censura e centralização do poder",
+      "Parlamentarismo",
+      "Monarquia constitucional"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Plano de Metas, com o lema \"cinquenta anos em cinco\", foi do governo de:",
+    "alternativas": [
+      "Getúlio Vargas",
+      "Juscelino Kubitschek",
+      "João Goulart",
+      "Eurico Dutra"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Ato Institucional nº 5 (AI-5), de 1968, aprofundou:",
+    "alternativas": [
+      "A abertura política",
+      "A repressão e a censura da ditadura militar",
+      "A reforma agrária",
+      "O voto direto para presidente"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "historia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Constituição de 1988 ficou conhecida como:",
+    "alternativas": [
+      "Constituição Cidadã",
+      "Constituição Polaca",
+      "Constituição da Mandioca",
+      "Carta Magna de 1824"
+    ],
+    "resposta": 0
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A carga do elétron é:",
+    "alternativas": [
+      "Positiva",
+      "Negativa",
+      "Neutra",
+      "Variável"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O número atômico (Z) indica o número de:",
+    "alternativas": [
+      "Nêutrons",
+      "Prótons",
+      "Elétrons da última camada",
+      "Massa total"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: os gases nobres pertencem ao grupo 18 da tabela periódica.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um átomo com Z = 11 e A = 23 tem quantos nêutrons?",
+    "alternativas": [
+      "11",
+      "12",
+      "23",
+      "34"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Átomos com o mesmo número de prótons e diferente número de nêutrons são:",
+    "alternativas": [
+      "Isóbaros",
+      "Isótopos",
+      "Isótonos",
+      "Isômeros"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O modelo atômico que propôs um núcleo pequeno e denso foi o de:",
+    "alternativas": [
+      "Dalton",
+      "Thomson",
+      "Rutherford",
+      "Aristóteles"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O elemento mais eletronegativo da tabela periódica é o:",
+    "alternativas": [
+      "Oxigênio",
+      "Flúor",
+      "Cloro",
+      "Sódio"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um cátion é um átomo que:",
+    "alternativas": [
+      "Ganhou elétrons",
+      "Perdeu elétrons",
+      "Ganhou prótons",
+      "Perdeu nêutrons"
+    ],
+    "resposta": 1
+  }
+]

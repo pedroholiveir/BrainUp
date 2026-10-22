@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O bioma de maior biodiversidade do Brasil é:",
+    "alternativas": [
+      "Caatinga",
+      "Amazônia",
+      "Pampa",
+      "Cerrado"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O clima predominante no sertão nordestino é o:",
+    "alternativas": [
+      "Equatorial",
+      "Subtropical",
+      "Semiárido",
+      "Tropical de altitude"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a Caatinga é um bioma exclusivamente brasileiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O bioma conhecido como \"berço das águas\", por abrigar nascentes de grandes bacias, é o:",
+    "alternativas": [
+      "Cerrado",
+      "Pampa",
+      "Pantanal",
+      "Mata Atlântica"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A maior área úmida contínua do planeta, no Centro-Oeste, é o:",
+    "alternativas": [
+      "Pantanal",
+      "Pampa",
+      "Cerrado",
+      "Caatinga"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O clima subtropical é característico da região:",
+    "alternativas": [
+      "Norte",
+      "Sul",
+      "Nordeste",
+      "Centro-Oeste"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O processo de degradação do solo em áreas secas, comum no semiárido, é a:",
+    "alternativas": [
+      "Desertificação",
+      "Eutrofização",
+      "Inversão térmica",
+      "Urbanização"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geografia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O bioma de campos de gramíneas do extremo sul do país é o:",
+    "alternativas": [
+      "Pampa",
+      "Cerrado",
+      "Caatinga",
+      "Amazônia"
+    ],
+    "resposta": 0
+  }
+]

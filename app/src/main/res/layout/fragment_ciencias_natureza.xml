@@ -35,7 +35,47 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/cienciasnatureza"
-            android:text="Física" />
+            android:text="Física ▾" />
+        <LinearLayout
+            android:id="@+id/menufisica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btfcinematica"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Cinemática" />
+            <Button
+                android:id="@+id/btfnewton"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Leis de Newton" />
+            <Button
+                android:id="@+id/btfenergia"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Energia e Trabalho" />
+            <Button
+                android:id="@+id/btfeletricidade"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Eletricidade" />
+        </LinearLayout>
         <Button
             android:id="@+id/btquimica"
             style="@style/BrainUp.Botao"
@@ -43,7 +83,47 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/cienciasnatureza"
-            android:text="Química" />
+            android:text="Química ▾" />
+        <LinearLayout
+            android:id="@+id/menuquimica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btqatomistica"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Atomística e Tabela Periódica" />
+            <Button
+                android:id="@+id/btqligacoes"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Ligações Químicas" />
+            <Button
+                android:id="@+id/btqfuncoes"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Funções Inorgânicas e Reações" />
+            <Button
+                android:id="@+id/btqorganica"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/cienciasnatureza"
+                android:text="Química Orgânica" />
+        </LinearLayout>
         <Button
             android:id="@+id/btbiologia"
             style="@style/BrainUp.Botao"

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O modelo de produção em linha de montagem, com divisão de tarefas, é o:",
+    "alternativas": [
+      "Toyotismo",
+      "Fordismo",
+      "Feudalismo",
+      "Mercantilismo"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O índice que mede a desigualdade de renda é o:",
+    "alternativas": [
+      "IDH",
+      "Gini",
+      "PIB",
+      "IPCA"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: informalidade é o trabalho sem carteira assinada ou proteção trabalhista.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Segundo Marshall, os direitos de cidadania se dividem em:",
+    "alternativas": [
+      "Civis, políticos e sociais",
+      "Econômicos, militares e religiosos",
+      "Públicos e privados apenas",
+      "Naturais e divinos"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A possibilidade de uma pessoa mudar de posição na hierarquia social é a:",
+    "alternativas": [
+      "Mobilidade social",
+      "Estratificação",
+      "Alienação",
+      "Sincretismo"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Lei Maria da Penha (2006) trata do combate:",
+    "alternativas": [
+      "À corrupção",
+      "À violência doméstica e familiar contra a mulher",
+      "Ao trabalho infantil",
+      "À pirataria"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O toyotismo difere do fordismo por ser:",
+    "alternativas": [
+      "Rígido e massificado",
+      "Flexível e voltado à produção sob demanda (just in time)",
+      "Baseado na escravidão",
+      "Sem uso de tecnologia"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O direito de votar e ser votado é um direito:",
+    "alternativas": [
+      "Civil",
+      "Político",
+      "Social",
+      "Econômico"
+    ],
+    "resposta": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A unidade de força no SI é:",
+    "alternativas": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A 1ª Lei de Newton também é chamada de lei da:",
+    "alternativas": [
+      "Inércia",
+      "Gravitação",
+      "Ação e reação",
+      "Conservação"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a massa de um corpo muda quando ele vai para a Lua.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma força resultante de 20 N em um corpo de 4 kg produz aceleração de:",
+    "alternativas": [
+      "5 m/s²",
+      "80 m/s²",
+      "0,2 m/s²",
+      "16 m/s²"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O peso de um corpo de 6 kg (g = 10 m/s²) é:",
+    "alternativas": [
+      "6 N",
+      "16 N",
+      "60 N",
+      "600 N"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Ao frear bruscamente um ônibus, os passageiros são projetados para frente por causa da:",
+    "alternativas": [
+      "Inércia",
+      "Gravidade",
+      "Força de atrito do ar",
+      "Energia térmica"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "As forças de ação e reação não se anulam porque:",
+    "alternativas": [
+      "Têm intensidades diferentes",
+      "Atuam em corpos diferentes",
+      "Têm o mesmo sentido",
+      "Só existem em repouso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "fisica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um bloco de 10 kg, com μ = 0,5 e g = 10 m/s², tem força de atrito máxima de:",
+    "alternativas": [
+      "5 N",
+      "50 N",
+      "100 N",
+      "0,5 N"
+    ],
+    "resposta": 1
+  }
+]

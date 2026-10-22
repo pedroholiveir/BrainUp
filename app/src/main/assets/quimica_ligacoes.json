@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O NaCl é um composto formado por ligação:",
+    "alternativas": [
+      "Iônica",
+      "Covalente",
+      "Metálica",
+      "Nenhuma"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na ligação covalente os átomos:",
+    "alternativas": [
+      "Transferem elétrons",
+      "Compartilham elétrons",
+      "Perdem prótons",
+      "Formam um mar de elétrons"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: os metais conduzem eletricidade graças aos elétrons livres.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A ligação entre um metal e um ametal tende a ser:",
+    "alternativas": [
+      "Iônica",
+      "Covalente apolar",
+      "Metálica",
+      "De hidrogênio"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A molécula de água é:",
+    "alternativas": [
+      "Polar",
+      "Apolar",
+      "Iônica",
+      "Metálica"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A regra do octeto diz que, em geral, os átomos tendem a ficar com:",
+    "alternativas": [
+      "2 elétrons na última camada",
+      "8 elétrons na camada de valência",
+      "18 elétrons",
+      "Nenhum elétron"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "As ligações de hidrogênio ocorrem quando o H está ligado a:",
+    "alternativas": [
+      "F, O ou N",
+      "C, Cl ou S",
+      "Na, K ou Li",
+      "Ne, Ar ou He"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "quimica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O óleo não se mistura à água porque:",
+    "alternativas": [
+      "É polar e a água é apolar",
+      "É apolar e a água é polar",
+      "Ambos são iônicos",
+      "Têm pontos de fusão iguais"
+    ],
+    "resposta": 1
+  }
+]

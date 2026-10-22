@@ -240,12 +240,11 @@ public class ExercioFragment extends Fragment {
 
         // contexto da aplicação: o fragment já terá sido trocado quando a resposta chegar
         final Context app = requireContext().getApplicationContext();
-        DesempenhoRepository.salvar(conteudo, acertos, total, pontos, pontosMax, sucesso -> {
-            if (Boolean.TRUE.equals(sucesso)) {
+        DesempenhoRepository.salvar(conteudo, acertos, total, pontos, pontosMax, (ok, mensagem) -> {
+            if (ok) {
                 Toast.makeText(app, "Desempenho salvo ✓", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(app, "Não foi possível salvar seu desempenho. Verifique a internet e as regras do Firestore.",
-                        Toast.LENGTH_LONG).show();
+                Toast.makeText(app, "Desempenho não salvo: " + mensagem, Toast.LENGTH_LONG).show();
             }
         });
 
