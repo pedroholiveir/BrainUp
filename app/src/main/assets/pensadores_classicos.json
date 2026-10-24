@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Quem ensinava por meio de perguntas e diálogo, sem deixar obras escritas?",
     "alternativas": [
+      "Sócrates",
       "Platão",
       "Aristóteles",
-      "Sócrates",
       "Tales"
     ],
-    "resposta": 2
+    "resposta": 0
   },
   {
     "assunto": "filosofia",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A frase \"Só sei que nada sei\" é associada a:",
     "alternativas": [
-      "Sócrates",
       "Platão",
       "Aristóteles",
+      "Sócrates",
       "Kant"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "filosofia",
@@ -62,10 +62,10 @@
     "alternativas": [
       "Guerreiros",
       "Comerciantes",
-      "Filósofos-reis",
-      "Sacerdotes"
+      "Sacerdotes",
+      "Filósofos-reis"
     ],
-    "resposta": 2
+    "resposta": 3
   },
   {
     "assunto": "filosofia",
@@ -75,11 +75,11 @@
     "pergunta": "Aristóteles critica a Teoria das Ideias de Platão porque ela:",
     "alternativas": [
       "Negava a existência dos seres vivos",
-      "Separava demais o mundo das Ideias do mundo real",
       "Defendia a ignorância",
+      "Separava demais o mundo das Ideias do mundo real",
       "Rejeitava a lógica"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "filosofia",
@@ -103,10 +103,10 @@
     "pergunta": "Segundo Aristóteles, o objetivo da vida humana é alcançar a:",
     "alternativas": [
       "Riqueza",
-      "Eudaimonia (felicidade ou vida plena)",
       "Fama",
-      "Ausência de desejos"
+      "Ausência de desejos",
+      "Eudaimonia (felicidade ou vida plena)"
     ],
-    "resposta": 1
+    "resposta": 3
   }
 ]

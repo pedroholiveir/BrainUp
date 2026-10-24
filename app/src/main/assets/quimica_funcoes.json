@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Uma solução com pH 3 é:",
     "alternativas": [
-      "Ácida",
       "Básica",
+      "Ácida",
       "Neutra",
       "Salina"
     ],
-    "resposta": 0
+    "resposta": 1
   },
   {
     "assunto": "quimica",
@@ -21,11 +21,11 @@
     "pergunta": "O NaOH é um exemplo de:",
     "alternativas": [
       "Ácido",
-      "Base",
       "Sal",
-      "Óxido"
+      "Óxido",
+      "Base"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "quimica",
@@ -46,12 +46,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A reação HCl + NaOH → NaCl + H₂O é de:",
     "alternativas": [
-      "Síntese",
       "Neutralização",
+      "Síntese",
       "Decomposição",
       "Combustão"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "quimica",

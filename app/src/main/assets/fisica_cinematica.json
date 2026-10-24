@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A velocidade média é dada por:",
     "alternativas": [
-      "Δs/Δt",
       "Δt/Δs",
       "a·t",
+      "Δs/Δt",
       "m·g"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "fisica",
@@ -74,12 +74,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Em um gráfico velocidade × tempo, a área sob a curva representa:",
     "alternativas": [
-      "Aceleração",
       "Deslocamento",
+      "Aceleração",
       "Força",
       "Energia"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "fisica",
@@ -103,10 +103,10 @@
     "pergunta": "No ponto mais alto de um lançamento vertical, a velocidade do corpo é:",
     "alternativas": [
       "Máxima",
-      "Zero",
       "Igual à inicial",
-      "Negativa e máxima"
+      "Negativa e máxima",
+      "Zero"
     ],
-    "resposta": 1
+    "resposta": 3
   }
 ]

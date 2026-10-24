@@ -1,8 +1,84 @@
 [
-  {"assunto":"citologia","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"A menor unidade estrutural e funcional dos seres vivos é:","alternativas":["O órgão","O tecido","A célula","A molécula"],"resposta":2},
-  {"assunto":"citologia","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: células procariontes possuem núcleo delimitado por membrana.","alternativas":["Verdadeiro","Falso"],"resposta":1},
-  {"assunto":"citologia","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual organela é responsável pela produção de energia (ATP) na respiração celular?","alternativas":["Ribossomo","Mitocôndria","Lisossomo","Complexo de Golgi"],"resposta":1},
-  {"assunto":"citologia","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"O transporte de substâncias a favor do gradiente de concentração e sem gasto de energia é chamado de:","alternativas":["Transporte ativo","Transporte passivo","Endocitose","Exocitose"],"resposta":1},
-  {"assunto":"citologia","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Uma célula colocada em meio hipertônico tende a:","alternativas":["Ganhar água e inchar","Perder água e encolher","Permanecer inalterada","Duplicar seu DNA"],"resposta":1},
-  {"assunto":"citologia","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual estrutura está presente em células vegetais e ausente em células animais?","alternativas":["Mitocôndria","Ribossomo","Cloroplasto","Núcleo"],"resposta":2}
+  {
+    "assunto": "citologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A menor unidade estrutural e funcional dos seres vivos é:",
+    "alternativas": [
+      "O órgão",
+      "O tecido",
+      "A molécula",
+      "A célula"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "citologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: células procariontes possuem núcleo delimitado por membrana.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "citologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual organela é responsável pela produção de energia (ATP) na respiração celular?",
+    "alternativas": [
+      "Mitocôndria",
+      "Ribossomo",
+      "Lisossomo",
+      "Complexo de Golgi"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "citologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O transporte de substâncias a favor do gradiente de concentração e sem gasto de energia é chamado de:",
+    "alternativas": [
+      "Transporte ativo",
+      "Endocitose",
+      "Exocitose",
+      "Transporte passivo"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "citologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma célula colocada em meio hipertônico tende a:",
+    "alternativas": [
+      "Perder água e encolher",
+      "Ganhar água e inchar",
+      "Permanecer inalterada",
+      "Duplicar seu DNA"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "citologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual estrutura está presente em células vegetais e ausente em células animais?",
+    "alternativas": [
+      "Cloroplasto",
+      "Mitocôndria",
+      "Ribossomo",
+      "Núcleo"
+    ],
+    "resposta": 0
+  }
 ]

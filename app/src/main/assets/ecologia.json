@@ -1,9 +1,98 @@
 [
-  {"assunto":"ecologia","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"O conjunto de populações de espécies diferentes que vivem em uma mesma área é:","alternativas":["Indivíduo","População","Comunidade","Biosfera"],"resposta":2},
-  {"assunto":"ecologia","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Os organismos que produzem o próprio alimento por fotossíntese são:","alternativas":["Consumidores","Decompositores","Produtores","Parasitas"],"resposta":2},
-  {"assunto":"ecologia","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: fungos e bactérias decompositores reciclam nutrientes para o ambiente.","alternativas":["Verdadeiro","Falso"],"resposta":0},
-  {"assunto":"ecologia","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"A relação ecológica em que ambos os organismos se beneficiam é:","alternativas":["Predação","Mutualismo","Parasitismo","Competição"],"resposta":1},
-  {"assunto":"ecologia","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"O lugar onde um organismo vive (seu \"endereço\") chama-se:","alternativas":["Nicho ecológico","Habitat","Bioma","Comunidade"],"resposta":1},
-  {"assunto":"ecologia","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Por que há menos predadores de topo do que herbívoros em uma cadeia alimentar?","alternativas":["Predadores são menos adaptados","Parte da energia é perdida a cada nível trófico","Herbívoros se reproduzem menos","Predadores não precisam de energia"],"resposta":1},
-  {"assunto":"ecologia","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"A sucessão ecológica que começa em um ambiente sem vida anterior, como rocha nua, é:","alternativas":["Secundária","Primária","Clímax","Regressiva"],"resposta":1}
+  {
+    "assunto": "ecologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O conjunto de populações de espécies diferentes que vivem em uma mesma área é:",
+    "alternativas": [
+      "Indivíduo",
+      "População",
+      "Biosfera",
+      "Comunidade"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Os organismos que produzem o próprio alimento por fotossíntese são:",
+    "alternativas": [
+      "Consumidores",
+      "Decompositores",
+      "Parasitas",
+      "Produtores"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: fungos e bactérias decompositores reciclam nutrientes para o ambiente.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A relação ecológica em que ambos os organismos se beneficiam é:",
+    "alternativas": [
+      "Mutualismo",
+      "Predação",
+      "Parasitismo",
+      "Competição"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O lugar onde um organismo vive (seu \"endereço\") chama-se:",
+    "alternativas": [
+      "Nicho ecológico",
+      "Bioma",
+      "Comunidade",
+      "Habitat"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Por que há menos predadores de topo do que herbívoros em uma cadeia alimentar?",
+    "alternativas": [
+      "Parte da energia é perdida a cada nível trófico",
+      "Predadores são menos adaptados",
+      "Herbívoros se reproduzem menos",
+      "Predadores não precisam de energia"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "ecologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A sucessão ecológica que começa em um ambiente sem vida anterior, como rocha nua, é:",
+    "alternativas": [
+      "Secundária",
+      "Clímax",
+      "Primária",
+      "Regressiva"
+    ],
+    "resposta": 2
+  }
 ]

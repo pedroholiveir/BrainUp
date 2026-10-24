@@ -29,6 +29,22 @@
             android:textSize="16sp" />
 
         <Button
+            android:id="@+id/btmproporcao"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Razão, Proporção e Regra de Três" />
+        <Button
+            android:id="@+id/btmporcentagem"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Porcentagem e Juros" />
+        <Button
             android:id="@+id/btalgebra"
             style="@style/BrainUp.Botao"
             android:layout_width="match_parent"
@@ -37,6 +53,14 @@
             android:backgroundTint="@color/azul_app"
             android:text="Álgebra" />
         <Button
+            android:id="@+id/btmfuncoes"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Funções" />
+        <Button
             android:id="@+id/btgeometriaplana"
             style="@style/BrainUp.Botao"
             android:layout_width="match_parent"
@@ -44,5 +68,37 @@
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/azul_app"
             android:text="Geometria Plana" />
+        <Button
+            android:id="@+id/btmespacial"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Geometria Espacial" />
+        <Button
+            android:id="@+id/btmtrigonometria"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Trigonometria" />
+        <Button
+            android:id="@+id/btmestatistica"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Estatística" />
+        <Button
+            android:id="@+id/btmprobabilidade"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/azul_app"
+            android:text="Probabilidade e Contagem" />
     </LinearLayout>
 </ScrollView>

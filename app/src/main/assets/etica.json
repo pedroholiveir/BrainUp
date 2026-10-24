@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A palavra \"ética\" vem do grego ethos, que significa:",
     "alternativas": [
-      "Lei",
       "Modo de ser, caráter ou costume",
+      "Lei",
       "Cidade",
       "Verdade"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "etica",
@@ -32,12 +32,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A diferença entre ética e moral é que a ética é:",
     "alternativas": [
-      "A reflexão filosófica sobre a moral",
       "Igual aos costumes",
       "Uma lei escrita",
-      "Uma doutrina religiosa"
+      "Uma doutrina religiosa",
+      "A reflexão filosófica sobre a moral"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "etica",
@@ -47,11 +47,11 @@
     "pergunta": "Para Sócrates, o mal é resultado:",
     "alternativas": [
       "Da riqueza",
-      "Da ignorância",
       "Da pobreza",
+      "Da ignorância",
       "Da vontade dos deuses"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "etica",
@@ -61,11 +61,11 @@
     "pergunta": "Na doutrina do meio-termo de Aristóteles, a coragem está entre:",
     "alternativas": [
       "Avareza e esbanjamento",
-      "Covardia e temeridade",
       "Falta e excesso de alimento",
+      "Covardia e temeridade",
       "Prazer e dor"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "etica",
@@ -75,11 +75,11 @@
     "pergunta": "Um problema ético da política contemporânea é:",
     "alternativas": [
       "Eleições periódicas",
-      "Corrupção",
       "Separação dos poderes",
-      "Direito ao voto"
+      "Direito ao voto",
+      "Corrupção"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "etica",
@@ -88,12 +88,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A ética que defende agir por dever, seguindo princípios universais, é associada a:",
     "alternativas": [
-      "Aristóteles",
       "Kant",
+      "Aristóteles",
       "Bentham",
       "Platão"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "etica",
@@ -102,11 +102,11 @@
     "imagem": "sem_imagem",
     "pergunta": "O utilitarismo defende que a melhor ação é aquela que:",
     "alternativas": [
-      "Segue a tradição",
       "Produz a maior felicidade para o maior número de pessoas",
+      "Segue a tradição",
       "Cumpre o dever a qualquer custo",
       "Busca o prazer individual"
     ],
-    "resposta": 1
+    "resposta": 0
   }
 ]

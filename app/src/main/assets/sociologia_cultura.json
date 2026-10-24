@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O julgamento de outras culturas a partir dos valores da própria cultura é:",
     "alternativas": [
-      "Etnocentrismo",
       "Relativismo cultural",
       "Sincretismo",
+      "Etnocentrismo",
       "Alteridade"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -21,11 +21,11 @@
     "pergunta": "Fazem parte da formação cultural brasileira as matrizes:",
     "alternativas": [
       "Apenas europeia",
-      "Indígena, africana e europeia, entre outras",
       "Apenas africana",
+      "Indígena, africana e europeia, entre outras",
       "Apenas asiática"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -60,12 +60,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A fusão de elementos de religiões diferentes é chamada de:",
     "alternativas": [
-      "Sincretismo",
       "Etnocentrismo",
       "Anomia",
-      "Alienação"
+      "Alienação",
+      "Sincretismo"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "sociologia",
@@ -74,24 +74,10 @@
     "imagem": "sem_imagem",
     "pergunta": "A socialização primária ocorre principalmente:",
     "alternativas": [
-      "Na universidade",
       "Na família",
+      "Na universidade",
       "No trabalho",
       "Nas redes sociais"
-    ],
-    "resposta": 1
-  },
-  {
-    "assunto": "sociologia",
-    "dificuldade": "dificil",
-    "tipo": "multipla",
-    "imagem": "sem_imagem",
-    "pergunta": "O conceito de indústria cultural foi desenvolvido por:",
-    "alternativas": [
-      "Adorno e Horkheimer",
-      "Durkheim e Weber",
-      "Platão e Aristóteles",
-      "Comte e Spencer"
     ],
     "resposta": 0
   },
@@ -100,13 +86,27 @@
     "dificuldade": "dificil",
     "tipo": "multipla",
     "imagem": "sem_imagem",
+    "pergunta": "O conceito de indústria cultural foi desenvolvido por:",
+    "alternativas": [
+      "Durkheim e Weber",
+      "Adorno e Horkheimer",
+      "Platão e Aristóteles",
+      "Comte e Spencer"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "sociologia",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
     "pergunta": "O patrimônio cultural imaterial inclui:",
     "alternativas": [
-      "Edifícios históricos",
       "Saberes, celebrações e formas de expressão",
+      "Edifícios históricos",
       "Obras de arte em museus",
       "Monumentos"
     ],
-    "resposta": 1
+    "resposta": 0
   }
 ]

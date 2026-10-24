@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A política do café com leite era a alternância na presidência entre:",
     "alternativas": [
-      "São Paulo e Minas Gerais",
       "Rio de Janeiro e Bahia",
+      "São Paulo e Minas Gerais",
       "Rio Grande do Sul e Pernambuco",
       "Paraná e Goiás"
     ],
-    "resposta": 0
+    "resposta": 1
   },
   {
     "assunto": "historia",
@@ -47,11 +47,11 @@
     "pergunta": "O \"voto de cabresto\" era:",
     "alternativas": [
       "Voto livre e secreto",
-      "Voto controlado pelos coronéis",
       "Voto obrigatório para mulheres",
+      "Voto controlado pelos coronéis",
       "Voto por correspondência"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "historia",
@@ -61,11 +61,11 @@
     "pergunta": "O Estado Novo (1937–1945) caracterizou-se por:",
     "alternativas": [
       "Democracia plena",
-      "Ditadura, censura e centralização do poder",
       "Parlamentarismo",
-      "Monarquia constitucional"
+      "Monarquia constitucional",
+      "Ditadura, censura e centralização do poder"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "historia",
@@ -89,11 +89,11 @@
     "pergunta": "O Ato Institucional nº 5 (AI-5), de 1968, aprofundou:",
     "alternativas": [
       "A abertura política",
-      "A repressão e a censura da ditadura militar",
       "A reforma agrária",
+      "A repressão e a censura da ditadura militar",
       "O voto direto para presidente"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "historia",

@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O primeiro imperador do Brasil foi:",
     "alternativas": [
-      "D. Pedro I",
       "D. Pedro II",
       "D. João VI",
+      "D. Pedro I",
       "Deodoro da Fonseca"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "historia",
@@ -74,12 +74,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A principal atividade econômica do Segundo Reinado era:",
     "alternativas": [
+      "Café",
       "Cana-de-açúcar",
       "Mineração de ouro",
-      "Café",
       "Borracha"
     ],
-    "resposta": 2
+    "resposta": 0
   },
   {
     "assunto": "historia",
@@ -89,11 +89,11 @@
     "pergunta": "A Revolução Farroupilha (1835–1845) ocorreu em qual região?",
     "alternativas": [
       "Nordeste",
-      "Rio Grande do Sul",
       "Pará",
-      "Minas Gerais"
+      "Minas Gerais",
+      "Rio Grande do Sul"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "historia",
@@ -102,11 +102,11 @@
     "imagem": "sem_imagem",
     "pergunta": "A proclamação da República (1889) foi precedida por:",
     "alternativas": [
-      "Questão Religiosa, Questão Militar e abolição sem indenização aos fazendeiros",
       "Apenas a Guerra do Paraguai",
       "A vinda da família real",
-      "A Revolução Industrial brasileira"
+      "A Revolução Industrial brasileira",
+      "Questão Religiosa, Questão Militar e abolição sem indenização aos fazendeiros"
     ],
-    "resposta": 0
+    "resposta": 3
   }
 ]

@@ -1,9 +1,98 @@
 [
-  {"assunto":"algebra","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é o valor de x na equação x + 5 = 12?","alternativas":["5","6","7","8"],"resposta":2},
-  {"assunto":"algebra","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Na expressão 3x, o número 3 está:","alternativas":["Somando x","Multiplicando x","Dividindo x","Subtraindo x"],"resposta":1},
-  {"assunto":"algebra","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: na equação 2x = 10, o valor de x é 5.","alternativas":["Verdadeiro","Falso"],"resposta":0},
-  {"assunto":"algebra","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Resolva a equação 2x + 3 = 11.","alternativas":["3","4","5","7"],"resposta":1},
-  {"assunto":"algebra","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Um lanche custa R$ 10 mais R$ 2 por adicional. Se o preço total foi R$ 16, quantos adicionais foram colocados?","alternativas":["2","3","4","6"],"resposta":1},
-  {"assunto":"algebra","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Na equação x/4 = 6, qual é o valor de x?","alternativas":["10","18","24","2"],"resposta":2},
-  {"assunto":"algebra","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Se 3x − 7 = 2x + 5, qual é o valor de x?","alternativas":["−2","2","7","12"],"resposta":3}
+  {
+    "assunto": "algebra",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é o valor de x na equação x + 5 = 12?",
+    "alternativas": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na expressão 3x, o número 3 está:",
+    "alternativas": [
+      "Somando x",
+      "Dividindo x",
+      "Subtraindo x",
+      "Multiplicando x"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: na equação 2x = 10, o valor de x é 5.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Resolva a equação 2x + 3 = 11.",
+    "alternativas": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um lanche custa R$ 10 mais R$ 2 por adicional. Se o preço total foi R$ 16, quantos adicionais foram colocados?",
+    "alternativas": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na equação x/4 = 6, qual é o valor de x?",
+    "alternativas": [
+      "10",
+      "18",
+      "24",
+      "2"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "algebra",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Se 3x − 7 = 2x + 5, qual é o valor de x?",
+    "alternativas": [
+      "−2",
+      "2",
+      "7",
+      "12"
+    ],
+    "resposta": 3
+  }
 ]

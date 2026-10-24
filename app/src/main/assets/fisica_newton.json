@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A unidade de força no SI é:",
     "alternativas": [
-      "Joule",
       "Newton",
+      "Joule",
       "Watt",
       "Pascal"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "fisica",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A 1ª Lei de Newton também é chamada de lei da:",
     "alternativas": [
-      "Inércia",
       "Gravitação",
       "Ação e reação",
+      "Inércia",
       "Conservação"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "fisica",
@@ -74,12 +74,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Ao frear bruscamente um ônibus, os passageiros são projetados para frente por causa da:",
     "alternativas": [
-      "Inércia",
       "Gravidade",
       "Força de atrito do ar",
-      "Energia térmica"
+      "Energia térmica",
+      "Inércia"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "fisica",
@@ -89,11 +89,11 @@
     "pergunta": "As forças de ação e reação não se anulam porque:",
     "alternativas": [
       "Têm intensidades diferentes",
-      "Atuam em corpos diferentes",
       "Têm o mesmo sentido",
-      "Só existem em repouso"
+      "Só existem em repouso",
+      "Atuam em corpos diferentes"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "fisica",

@@ -21,11 +21,11 @@
     "pergunta": "Na ligação covalente os átomos:",
     "alternativas": [
       "Transferem elétrons",
-      "Compartilham elétrons",
       "Perdem prótons",
+      "Compartilham elétrons",
       "Formam um mar de elétrons"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "quimica",
@@ -46,12 +46,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A ligação entre um metal e um ametal tende a ser:",
     "alternativas": [
-      "Iônica",
       "Covalente apolar",
       "Metálica",
-      "De hidrogênio"
+      "De hidrogênio",
+      "Iônica"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "quimica",
@@ -88,12 +88,12 @@
     "imagem": "sem_imagem",
     "pergunta": "As ligações de hidrogênio ocorrem quando o H está ligado a:",
     "alternativas": [
-      "F, O ou N",
       "C, Cl ou S",
+      "F, O ou N",
       "Na, K ou Li",
       "Ne, Ar ou He"
     ],
-    "resposta": 0
+    "resposta": 1
   },
   {
     "assunto": "quimica",

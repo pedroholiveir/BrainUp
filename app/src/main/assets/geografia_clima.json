@@ -7,11 +7,11 @@
     "pergunta": "O bioma de maior biodiversidade do Brasil é:",
     "alternativas": [
       "Caatinga",
-      "Amazônia",
       "Pampa",
-      "Cerrado"
+      "Cerrado",
+      "Amazônia"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "geografia",
@@ -22,10 +22,10 @@
     "alternativas": [
       "Equatorial",
       "Subtropical",
-      "Semiárido",
-      "Tropical de altitude"
+      "Tropical de altitude",
+      "Semiárido"
     ],
-    "resposta": 2
+    "resposta": 3
   },
   {
     "assunto": "geografia",
@@ -46,12 +46,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O bioma conhecido como \"berço das águas\", por abrigar nascentes de grandes bacias, é o:",
     "alternativas": [
-      "Cerrado",
       "Pampa",
       "Pantanal",
+      "Cerrado",
       "Mata Atlântica"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "geografia",
@@ -75,11 +75,11 @@
     "pergunta": "O clima subtropical é característico da região:",
     "alternativas": [
       "Norte",
-      "Sul",
       "Nordeste",
+      "Sul",
       "Centro-Oeste"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "geografia",
@@ -102,11 +102,11 @@
     "imagem": "sem_imagem",
     "pergunta": "O bioma de campos de gramíneas do extremo sul do país é o:",
     "alternativas": [
-      "Pampa",
       "Cerrado",
       "Caatinga",
-      "Amazônia"
+      "Amazônia",
+      "Pampa"
     ],
-    "resposta": 0
+    "resposta": 3
   }
 ]

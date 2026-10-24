@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A carga do elétron é:",
     "alternativas": [
-      "Positiva",
       "Negativa",
+      "Positiva",
       "Neutra",
       "Variável"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "quimica",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O número atômico (Z) indica o número de:",
     "alternativas": [
-      "Nêutrons",
       "Prótons",
+      "Nêutrons",
       "Elétrons da última camada",
       "Massa total"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "quimica",
@@ -89,11 +89,11 @@
     "pergunta": "O elemento mais eletronegativo da tabela periódica é o:",
     "alternativas": [
       "Oxigênio",
-      "Flúor",
       "Cloro",
-      "Sódio"
+      "Sódio",
+      "Flúor"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "quimica",
@@ -103,10 +103,10 @@
     "pergunta": "Um cátion é um átomo que:",
     "alternativas": [
       "Ganhou elétrons",
-      "Perdeu elétrons",
       "Ganhou prótons",
+      "Perdeu elétrons",
       "Perdeu nêutrons"
     ],
-    "resposta": 1
+    "resposta": 2
   }
 ]

@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O meridiano de origem (0°) é o de:",
     "alternativas": [
-      "Greenwich",
       "Tordesilhas",
       "Paris",
+      "Greenwich",
       "Brasília"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "geografia",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A linha imaginária que divide a Terra em hemisfério norte e sul é:",
     "alternativas": [
-      "O meridiano de Greenwich",
       "O Equador",
+      "O meridiano de Greenwich",
       "O Trópico de Capricórnio",
       "O Círculo Polar Ártico"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "geografia",
@@ -75,11 +75,11 @@
     "pergunta": "A projeção de Mercator é conhecida por:",
     "alternativas": [
       "Conservar as áreas",
-      "Aumentar as áreas em altas latitudes",
       "Representar bem os polos",
+      "Aumentar as áreas em altas latitudes",
       "Usar um cone"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "geografia",

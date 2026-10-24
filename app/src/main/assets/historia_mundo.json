@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A Revolução Industrial teve início em qual país?",
     "alternativas": [
+      "Inglaterra",
       "Estados Unidos",
       "Alemanha",
-      "Inglaterra",
       "França"
     ],
-    "resposta": 2
+    "resposta": 0
   },
   {
     "assunto": "historia",
@@ -47,11 +47,11 @@
     "pergunta": "O tratado que impôs duras condições à Alemanha após a Primeira Guerra foi:",
     "alternativas": [
       "Tratado de Tordesilhas",
-      "Tratado de Versalhes",
       "Tratado de Utrecht",
+      "Tratado de Versalhes",
       "Tratado de Berlim"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "historia",
@@ -60,12 +60,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A crise econômica de 1929 teve origem:",
     "alternativas": [
-      "Na bolsa de valores de Nova York",
       "Na bolsa de Londres",
+      "Na bolsa de valores de Nova York",
       "No Japão",
       "Na Revolução Russa"
     ],
-    "resposta": 0
+    "resposta": 1
   },
   {
     "assunto": "historia",
@@ -75,11 +75,11 @@
     "pergunta": "A Guerra Fria foi a disputa de influência entre:",
     "alternativas": [
       "Alemanha e França",
-      "Estados Unidos e União Soviética",
       "China e Japão",
-      "Reino Unido e Espanha"
+      "Reino Unido e Espanha",
+      "Estados Unidos e União Soviética"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "historia",

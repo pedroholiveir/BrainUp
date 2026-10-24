@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Qual poder é responsável por criar, discutir e aprovar as leis?",
     "alternativas": [
-      "Executivo",
       "Legislativo",
+      "Executivo",
       "Judiciário",
       "Todos igualmente"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "politica",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A teoria da separação dos poderes foi desenvolvida por:",
     "alternativas": [
-      "Montesquieu",
       "Aristóteles",
       "Platão",
+      "Montesquieu",
       "Sócrates"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "politica",
@@ -75,11 +75,11 @@
     "pergunta": "A ideologia que defende a liberdade individual, a propriedade privada e a limitação do poder do Estado é o:",
     "alternativas": [
       "Socialismo",
-      "Liberalismo",
       "Conservadorismo",
+      "Liberalismo",
       "Comunismo"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "politica",
@@ -88,12 +88,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A divisão intensa da sociedade em grupos de opiniões opostas, que dificulta o diálogo, é chamada de:",
     "alternativas": [
-      "Polarização política",
       "Globalização",
       "Cidadania",
-      "Soberania"
+      "Soberania",
+      "Polarização política"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "politica",
@@ -102,11 +102,11 @@
     "imagem": "sem_imagem",
     "pergunta": "Quando a população sente que os governantes não representam seus interesses, ocorre uma:",
     "alternativas": [
-      "Crise de representatividade",
       "Separação dos poderes",
+      "Crise de representatividade",
       "Reforma agrária",
       "Eleição direta"
     ],
-    "resposta": 0
+    "resposta": 1
   }
 ]

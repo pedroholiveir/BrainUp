@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Qual ramo da Biologia estuda como os órgãos do corpo humano funcionam?",
     "alternativas": [
-      "Anatomia",
       "Fisiologia",
+      "Anatomia",
       "Citologia",
       "Embriologia"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "fisiologia",
@@ -46,12 +46,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A capacidade do organismo de manter o equilíbrio interno é chamada de:",
     "alternativas": [
-      "Homeostase",
       "Digestão",
       "Excreção",
-      "Fecundação"
+      "Fecundação",
+      "Homeostase"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "fisiologia",
@@ -60,12 +60,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Em que estrutura dos pulmões ocorrem as trocas gasosas?",
     "alternativas": [
+      "Alvéolos",
       "Traqueia",
       "Brônquios",
-      "Alvéolos",
       "Laringe"
     ],
-    "resposta": 2
+    "resposta": 0
   },
   {
     "assunto": "fisiologia",
@@ -104,10 +104,10 @@
     "alternativas": [
       "Vagina",
       "Útero",
-      "Tubas uterinas",
-      "Ovários"
+      "Ovários",
+      "Tubas uterinas"
     ],
-    "resposta": 2
+    "resposta": 3
   },
   {
     "assunto": "fisiologia",
@@ -117,10 +117,10 @@
     "pergunta": "Onde ocorre principalmente a absorção dos nutrientes dos alimentos?",
     "alternativas": [
       "Estômago",
-      "Intestino delgado",
       "Intestino grosso",
+      "Intestino delgado",
       "Esôfago"
     ],
-    "resposta": 1
+    "resposta": 2
   }
 ]

@@ -7,11 +7,11 @@
     "pergunta": "A unidade de resistência elétrica é o:",
     "alternativas": [
       "Volt",
-      "Ohm",
       "Ampère",
+      "Ohm",
       "Watt"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "fisica",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Cargas elétricas de mesmo sinal:",
     "alternativas": [
-      "Se atraem",
       "Se repelem",
+      "Se atraem",
       "Não interagem",
       "Se anulam"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "fisica",
@@ -74,12 +74,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A potência elétrica pode ser calculada por:",
     "alternativas": [
-      "P = U · i",
       "P = U / i",
       "P = R / i",
+      "P = U · i",
       "P = i + U"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "fisica",

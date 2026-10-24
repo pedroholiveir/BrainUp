@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A palavra \"filosofia\", em grego, significa:",
     "alternativas": [
-      "Amor à sabedoria",
       "Estudo da natureza",
       "Arte de governar",
-      "Ciência dos números"
+      "Ciência dos números",
+      "Amor à sabedoria"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "filosofia",
@@ -33,23 +33,9 @@
     "pergunta": "A passagem do mito para a razão consiste em:",
     "alternativas": [
       "Abandonar toda tradição",
-      "Buscar explicações racionais, baseadas na observação e na lógica",
       "Aceitar a explicação dos deuses sem questionar",
+      "Buscar explicações racionais, baseadas na observação e na lógica",
       "Substituir a Filosofia pela religião"
-    ],
-    "resposta": 1
-  },
-  {
-    "assunto": "filosofia",
-    "dificuldade": "medio",
-    "tipo": "multipla",
-    "imagem": "sem_imagem",
-    "pergunta": "Qual ramo da Filosofia estuda a ação humana e pergunta \"como devemos agir?\"",
-    "alternativas": [
-      "Lógica",
-      "Estética",
-      "Ética",
-      "Metafísica"
     ],
     "resposta": 2
   },
@@ -58,14 +44,28 @@
     "dificuldade": "medio",
     "tipo": "multipla",
     "imagem": "sem_imagem",
-    "pergunta": "A teoria do conhecimento, que investiga como conhecemos e quais os limites do conhecimento, é a:",
+    "pergunta": "Qual ramo da Filosofia estuda a ação humana e pergunta \"como devemos agir?\"",
     "alternativas": [
-      "Epistemologia",
-      "Estética",
+      "Ética",
       "Lógica",
-      "Filosofia Política"
+      "Estética",
+      "Metafísica"
     ],
     "resposta": 0
+  },
+  {
+    "assunto": "filosofia",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A teoria do conhecimento, que investiga como conhecemos e quais os limites do conhecimento, é a:",
+    "alternativas": [
+      "Estética",
+      "Lógica",
+      "Filosofia Política",
+      "Epistemologia"
+    ],
+    "resposta": 3
   },
   {
     "assunto": "filosofia",
@@ -74,11 +74,11 @@
     "imagem": "sem_imagem",
     "pergunta": "A Lógica é o ramo da Filosofia que:",
     "alternativas": [
-      "Estuda a beleza e a arte",
       "Estuda as regras do raciocínio correto",
+      "Estuda a beleza e a arte",
       "Estuda o poder e o Estado",
       "Estuda o ser e a existência"
     ],
-    "resposta": 1
+    "resposta": 0
   }
 ]

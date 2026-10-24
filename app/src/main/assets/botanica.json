@@ -7,11 +7,11 @@
     "pergunta": "O pigmento responsável pela cor verde das plantas e pela absorção da luz na fotossíntese é a:",
     "alternativas": [
       "Hemoglobina",
-      "Clorofila",
       "Melanina",
-      "Celulose"
+      "Celulose",
+      "Clorofila"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -22,10 +22,10 @@
     "alternativas": [
       "Mitocôndria",
       "Ribossomo",
-      "Cloroplasto",
-      "Lisossomo"
+      "Lisossomo",
+      "Cloroplasto"
     ],
-    "resposta": 2
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -47,11 +47,11 @@
     "pergunta": "Qual tecido condutor transporta a seiva elaborada (açúcares produzidos na fotossíntese)?",
     "alternativas": [
       "Xilema",
-      "Floema",
       "Estômato",
-      "Mesófilo"
+      "Mesófilo",
+      "Floema"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -60,12 +60,12 @@
     "imagem": "sem_imagem",
     "pergunta": "Qual grupo de plantas não possui vasos condutores?",
     "alternativas": [
-      "Briófitas",
       "Pteridófitas",
       "Gimnospermas",
-      "Angiospermas"
+      "Angiospermas",
+      "Briófitas"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -76,10 +76,10 @@
     "alternativas": [
       "Briófitas",
       "Pteridófitas",
-      "Gimnospermas",
-      "Angiospermas"
+      "Angiospermas",
+      "Gimnospermas"
     ],
-    "resposta": 2
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -89,11 +89,11 @@
     "pergunta": "A transferência do pólen para o estigma é chamada de:",
     "alternativas": [
       "Fecundação",
-      "Polinização",
       "Germinação",
-      "Dispersão"
+      "Dispersão",
+      "Polinização"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "botanica",
@@ -102,11 +102,11 @@
     "imagem": "sem_imagem",
     "pergunta": "Quais elementos a planta utiliza na fotossíntese?",
     "alternativas": [
-      "Luz solar, água e gás carbônico",
       "Luz solar, oxigênio e glicose",
       "Água, oxigênio e amido",
-      "Gás carbônico, glicose e clorofila"
+      "Gás carbônico, glicose e clorofila",
+      "Luz solar, água e gás carbônico"
     ],
-    "resposta": 0
+    "resposta": 3
   }
 ]

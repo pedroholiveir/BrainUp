@@ -7,11 +7,11 @@
     "pergunta": "A unidade de energia no SI é o:",
     "alternativas": [
       "Watt",
-      "Joule",
       "Newton",
-      "Volt"
+      "Volt",
+      "Joule"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "fisica",
@@ -21,11 +21,11 @@
     "pergunta": "A energia associada ao movimento é a:",
     "alternativas": [
       "Potencial",
-      "Cinética",
       "Térmica",
-      "Química"
+      "Química",
+      "Cinética"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "fisica",
@@ -103,10 +103,10 @@
     "pergunta": "A maior parte da energia elétrica brasileira vem de usinas:",
     "alternativas": [
       "Nucleares",
-      "Hidrelétricas",
       "Termelétricas a carvão",
+      "Hidrelétricas",
       "Solares"
     ],
-    "resposta": 1
+    "resposta": 2
   }
 ]

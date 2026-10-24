@@ -21,11 +21,11 @@
     "pergunta": "O sociólogo que desenvolveu o conceito de fato social foi:",
     "alternativas": [
       "Karl Marx",
-      "Émile Durkheim",
       "Max Weber",
+      "Émile Durkheim",
       "Auguste Comte"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -47,11 +47,11 @@
     "pergunta": "Segundo Durkheim, o fato social é:",
     "alternativas": [
       "Individual e interior",
-      "Exterior ao indivíduo, geral e coercitivo",
       "Sempre voluntário",
-      "Restrito à economia"
+      "Restrito à economia",
+      "Exterior ao indivíduo, geral e coercitivo"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "sociologia",
@@ -75,11 +75,11 @@
     "pergunta": "Para Marx, a burguesia é a classe que:",
     "alternativas": [
       "Vende sua força de trabalho",
-      "Possui os meios de produção",
       "Governa a Igreja",
+      "Possui os meios de produção",
       "Vive no campo"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -88,12 +88,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O conceito de anomia, de Durkheim, refere-se:",
     "alternativas": [
-      "A excesso de normas",
       "Ao enfraquecimento ou ausência de normas sociais",
+      "A excesso de normas",
       "À luta de classes",
       "À burocracia"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "sociologia",
@@ -104,9 +104,9 @@
     "alternativas": [
       "Age por tradição",
       "Age por emoção",
-      "Calcula os meios adequados para atingir um objetivo",
-      "Age por valores sem considerar as consequências"
+      "Age por valores sem considerar as consequências",
+      "Calcula os meios adequados para atingir um objetivo"
     ],
-    "resposta": 2
+    "resposta": 3
   }
 ]

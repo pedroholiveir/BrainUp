@@ -7,11 +7,11 @@
     "pergunta": "O carbono é um elemento:",
     "alternativas": [
       "Monovalente",
-      "Tetravalente",
       "Divalente",
+      "Tetravalente",
       "Trivalente"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "quimica",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O composto mais simples da química orgânica, CH₄, é o:",
     "alternativas": [
-      "Etano",
       "Metano",
+      "Etano",
       "Propano",
       "Butano"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "quimica",
@@ -47,11 +47,11 @@
     "pergunta": "O grupo funcional –COOH caracteriza um:",
     "alternativas": [
       "Álcool",
-      "Ácido carboxílico",
       "Aldeído",
-      "Éter"
+      "Éter",
+      "Ácido carboxílico"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "quimica",
@@ -88,12 +88,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A combustão completa de um hidrocarboneto produz:",
     "alternativas": [
-      "CO₂ e H₂O",
       "CO e carbono",
       "Apenas H₂",
-      "O₂ e N₂"
+      "O₂ e N₂",
+      "CO₂ e H₂O"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "quimica",

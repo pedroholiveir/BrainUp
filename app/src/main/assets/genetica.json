@@ -1,9 +1,98 @@
 [
-  {"assunto":"genetica","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Quem é considerado o pai da genética?","alternativas":["Charles Darwin","Gregor Mendel","Louis Pasteur","Lamarck"],"resposta":1},
-  {"assunto":"genetica","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"As bases nitrogenadas do DNA são:","alternativas":["A, U, C, G","A, T, C, G","A, T, U, G","T, U, C, G"],"resposta":1},
-  {"assunto":"genetica","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: no DNA, a adenina (A) pareia com a timina (T).","alternativas":["Verdadeiro","Falso"],"resposta":0},
-  {"assunto":"genetica","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"No cruzamento Aa × Aa (A dominante), a proporção fenotípica esperada é:","alternativas":["1:1","3:1","9:3:3:1","1:2:1"],"resposta":1},
-  {"assunto":"genetica","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Um indivíduo de genótipo Aa, sendo A dominante, apresenta fenótipo:","alternativas":["Recessivo","Dominante","Intermediário","Letal"],"resposta":1},
-  {"assunto":"genetica","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é o genótipo de uma pessoa com sangue tipo AB?","alternativas":["IAIA","IAi","IAIB","ii"],"resposta":2},
-  {"assunto":"genetica","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"O daltonismo, ligado ao cromossomo X, é mais comum em homens porque:","alternativas":["Homens têm dois cromossomos X","Homens têm apenas um cromossomo X","O cromossomo Y causa a doença","Mulheres não podem ter alelos recessivos"],"resposta":1}
+  {
+    "assunto": "genetica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quem é considerado o pai da genética?",
+    "alternativas": [
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Lamarck",
+      "Gregor Mendel"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "As bases nitrogenadas do DNA são:",
+    "alternativas": [
+      "A, T, C, G",
+      "A, U, C, G",
+      "A, T, U, G",
+      "T, U, C, G"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: no DNA, a adenina (A) pareia com a timina (T).",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "No cruzamento Aa × Aa (A dominante), a proporção fenotípica esperada é:",
+    "alternativas": [
+      "1:1",
+      "3:1",
+      "9:3:3:1",
+      "1:2:1"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um indivíduo de genótipo Aa, sendo A dominante, apresenta fenótipo:",
+    "alternativas": [
+      "Recessivo",
+      "Intermediário",
+      "Dominante",
+      "Letal"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é o genótipo de uma pessoa com sangue tipo AB?",
+    "alternativas": [
+      "IAIB",
+      "IAIA",
+      "IAi",
+      "ii"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "genetica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O daltonismo, ligado ao cromossomo X, é mais comum em homens porque:",
+    "alternativas": [
+      "Homens têm dois cromossomos X",
+      "O cromossomo Y causa a doença",
+      "Mulheres não podem ter alelos recessivos",
+      "Homens têm apenas um cromossomo X"
+    ],
+    "resposta": 3
+  }
 ]

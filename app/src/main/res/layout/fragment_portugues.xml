@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:fontFamily="sans-serif-black"
-            android:text="Português"
+            android:text="Linguagens"
             android:textColor="@color/texto_primario"
             android:textSize="34sp" />
 
@@ -29,14 +29,101 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/btinterpretacao"
+            android:id="@+id/btlingport"
             style="@style/BrainUp.Botao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/portugues"
-            android:text="Interpretação de texto" />
-
+            android:text="Língua Portuguesa ▾" />
+        <LinearLayout
+            android:id="@+id/menulingport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btinterpretacao"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Interpretação de Texto" />
+            <Button
+                android:id="@+id/btgeneros"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Gêneros Textuais" />
+            <Button
+                android:id="@+id/btfuncoes"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Funções da Linguagem" />
+            <Button
+                android:id="@+id/btfiguras"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Figuras de Linguagem" />
+            <Button
+                android:id="@+id/btvariacao"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Variação Linguística" />
+            <Button
+                android:id="@+id/btcoesao"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Coesão e Coerência" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btliteratura"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/portugues"
+            android:text="Literatura ▾" />
+        <LinearLayout
+            android:id="@+id/menuliteratura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btlitescolas"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Do Quinhentismo ao Simbolismo" />
+            <Button
+                android:id="@+id/btlitmodernismo"
+                style="@style/BrainUp.Botao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/portugues"
+                android:text="Modernismo e Contemporânea" />
+        </LinearLayout>
         <Button
             android:id="@+id/btredacao"
             style="@style/BrainUp.Botao"
@@ -45,5 +132,29 @@
             android:layout_marginTop="12dp"
             android:backgroundTint="@color/portugues"
             android:text="Redação ENEM" />
+        <Button
+            android:id="@+id/btartes"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/portugues"
+            android:text="Artes" />
+        <Button
+            android:id="@+id/bteducacaofisica"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/portugues"
+            android:text="Educação Física" />
+        <Button
+            android:id="@+id/btlinguas"
+            style="@style/BrainUp.Botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/portugues"
+            android:text="Inglês e Espanhol" />
     </LinearLayout>
 </ScrollView>

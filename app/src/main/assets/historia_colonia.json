@@ -6,12 +6,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O Tratado de Tordesilhas (1494) dividiu as terras descobertas entre:",
     "alternativas": [
-      "Portugal e Espanha",
       "Portugal e França",
       "Espanha e Inglaterra",
-      "Portugal e Holanda"
+      "Portugal e Holanda",
+      "Portugal e Espanha"
     ],
-    "resposta": 0
+    "resposta": 3
   },
   {
     "assunto": "historia",
@@ -20,12 +20,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O primeiro produto explorado economicamente pelos portugueses no Brasil foi:",
     "alternativas": [
+      "Pau-brasil",
       "Açúcar",
       "Ouro",
-      "Pau-brasil",
       "Café"
     ],
-    "resposta": 2
+    "resposta": 0
   },
   {
     "assunto": "historia",
@@ -46,12 +46,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A base da economia açucareira colonial era:",
     "alternativas": [
-      "Policultura com mão de obra assalariada",
       "Monocultura em latifúndios com trabalho escravo",
+      "Policultura com mão de obra assalariada",
       "Pequenas propriedades familiares",
       "Indústria têxtil"
     ],
-    "resposta": 1
+    "resposta": 0
   },
   {
     "assunto": "historia",
@@ -74,12 +74,12 @@
     "imagem": "sem_imagem",
     "pergunta": "O imposto de 20% sobre o ouro extraído era o:",
     "alternativas": [
-      "Quinto",
       "Dízimo",
       "Derrama",
+      "Quinto",
       "Capitação"
     ],
-    "resposta": 0
+    "resposta": 2
   },
   {
     "assunto": "historia",
@@ -88,11 +88,11 @@
     "imagem": "sem_imagem",
     "pergunta": "Qual medida de 1808 alterou a relação comercial da colônia com a metrópole?",
     "alternativas": [
-      "Abertura dos portos às nações amigas",
       "Criação do Governo-Geral",
       "Fim do tráfico negreiro",
-      "Proclamação da Independência"
+      "Proclamação da Independência",
+      "Abertura dos portos às nações amigas"
     ],
-    "resposta": 0
+    "resposta": 3
   }
 ]

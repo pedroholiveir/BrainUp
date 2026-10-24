@@ -7,11 +7,11 @@
     "pergunta": "O modelo de produção em linha de montagem, com divisão de tarefas, é o:",
     "alternativas": [
       "Toyotismo",
-      "Fordismo",
       "Feudalismo",
+      "Fordismo",
       "Mercantilismo"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -21,11 +21,11 @@
     "pergunta": "O índice que mede a desigualdade de renda é o:",
     "alternativas": [
       "IDH",
-      "Gini",
       "PIB",
-      "IPCA"
+      "IPCA",
+      "Gini"
     ],
-    "resposta": 1
+    "resposta": 3
   },
   {
     "assunto": "sociologia",
@@ -60,12 +60,12 @@
     "imagem": "sem_imagem",
     "pergunta": "A possibilidade de uma pessoa mudar de posição na hierarquia social é a:",
     "alternativas": [
-      "Mobilidade social",
       "Estratificação",
+      "Mobilidade social",
       "Alienação",
       "Sincretismo"
     ],
-    "resposta": 0
+    "resposta": 1
   },
   {
     "assunto": "sociologia",
@@ -75,11 +75,11 @@
     "pergunta": "A Lei Maria da Penha (2006) trata do combate:",
     "alternativas": [
       "À corrupção",
-      "À violência doméstica e familiar contra a mulher",
       "Ao trabalho infantil",
+      "À violência doméstica e familiar contra a mulher",
       "À pirataria"
     ],
-    "resposta": 1
+    "resposta": 2
   },
   {
     "assunto": "sociologia",
@@ -103,10 +103,10 @@
     "pergunta": "O direito de votar e ser votado é um direito:",
     "alternativas": [
       "Civil",
-      "Político",
       "Social",
-      "Econômico"
+      "Econômico",
+      "Político"
     ],
-    "resposta": 1
+    "resposta": 3
   }
 ]

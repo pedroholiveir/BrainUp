@@ -1,9 +1,98 @@
 [
-  {"assunto":"geometria","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é a soma dos ângulos internos de um triângulo?","alternativas":["90°","180°","270°","360°"],"resposta":1},
-  {"assunto":"geometria","dificuldade":"facil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Um ângulo de 90° é chamado de:","alternativas":["Agudo","Obtuso","Reto","Raso"],"resposta":2},
-  {"assunto":"geometria","dificuldade":"facil","tipo":"vf","imagem":"sem_imagem","pergunta":"Verdadeiro ou falso: a soma dos ângulos internos de qualquer quadrilátero é 360°.","alternativas":["Verdadeiro","Falso"],"resposta":0},
-  {"assunto":"geometria","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é o perímetro de um quadrado de lado 7 cm?","alternativas":["14 cm","21 cm","28 cm","49 cm"],"resposta":2},
-  {"assunto":"geometria","dificuldade":"medio","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é a área de um retângulo com base 8 m e altura 5 m?","alternativas":["13 m²","26 m²","40 m²","80 m²"],"resposta":2},
-  {"assunto":"geometria","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Qual é a área de um triângulo de base 10 cm e altura 6 cm?","alternativas":["16 cm²","30 cm²","60 cm²","32 cm²"],"resposta":1},
-  {"assunto":"geometria","dificuldade":"dificil","tipo":"multipla","imagem":"sem_imagem","pergunta":"Um círculo tem raio 3 cm. Usando π ≈ 3,14, sua área é aproximadamente:","alternativas":["9,42 cm²","18,84 cm²","28,26 cm²","56,52 cm²"],"resposta":2}
+  {
+    "assunto": "geometria",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é a soma dos ângulos internos de um triângulo?",
+    "alternativas": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um ângulo de 90° é chamado de:",
+    "alternativas": [
+      "Agudo",
+      "Obtuso",
+      "Reto",
+      "Raso"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a soma dos ângulos internos de qualquer quadrilátero é 360°.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é o perímetro de um quadrado de lado 7 cm?",
+    "alternativas": [
+      "14 cm",
+      "21 cm",
+      "28 cm",
+      "49 cm"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é a área de um retângulo com base 8 m e altura 5 m?",
+    "alternativas": [
+      "13 m²",
+      "26 m²",
+      "40 m²",
+      "80 m²"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual é a área de um triângulo de base 10 cm e altura 6 cm?",
+    "alternativas": [
+      "16 cm²",
+      "30 cm²",
+      "60 cm²",
+      "32 cm²"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "geometria",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um círculo tem raio 3 cm. Usando π ≈ 3,14, sua área é aproximadamente:",
+    "alternativas": [
+      "9,42 cm²",
+      "18,84 cm²",
+      "28,26 cm²",
+      "56,52 cm²"
+    ],
+    "resposta": 2
+  }
 ]
