@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A função da linguagem centrada no emissor, que expressa sentimentos, é a:",
+    "alternativas": [
+      "Emotiva",
+      "Referencial",
+      "Conativa",
+      "Fática"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A frase \"Compre agora e ganhe desconto!\" apresenta função predominantemente:",
+    "alternativas": [
+      "Referencial",
+      "Poética",
+      "Metalinguística",
+      "Conativa"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: um dicionário, ao explicar o significado das palavras, usa a função metalinguística.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A função que busca estabelecer ou manter o contato entre os interlocutores é a:",
+    "alternativas": [
+      "Poética",
+      "Fática",
+      "Emotiva",
+      "Referencial"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A função que valoriza a forma da mensagem (sons, rimas, imagens) é a:",
+    "alternativas": [
+      "Referencial",
+      "Conativa",
+      "Fática",
+      "Poética"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma notícia que informa fatos com objetividade, em 3ª pessoa, tem função predominantemente:",
+    "alternativas": [
+      "Emotiva",
+      "Fática",
+      "Referencial",
+      "Conativa"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um poema que fala sobre o próprio ato de escrever poemas apresenta função:",
+    "alternativas": [
+      "Metalinguística",
+      "Conativa",
+      "Fática",
+      "Referencial"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na frase \"Alô, você está me ouvindo?\", a função predominante é a:",
+    "alternativas": [
+      "Referencial",
+      "Fática",
+      "Emotiva",
+      "Poética"
+    ],
+    "resposta": 1
+  }
+]

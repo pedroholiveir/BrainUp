@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Na prova do ENEM, a língua estrangeira é cobrada principalmente por meio de:",
+    "alternativas": [
+      "Tradução palavra por palavra",
+      "Leitura e interpretação de textos",
+      "Testes de pronúncia",
+      "Ditados"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Palavras parecidas em duas línguas e com o mesmo significado são chamadas de:",
+    "alternativas": [
+      "Falsos cognatos",
+      "Gírias",
+      "Cognatos",
+      "Neologismos"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: \"library\", em inglês, significa \"livraria\".",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em inglês, \"actually\" significa:",
+    "alternativas": [
+      "Atualmente",
+      "Realmente atual",
+      "Ultimamente",
+      "Na verdade"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em espanhol, \"embarazada\" significa:",
+    "alternativas": [
+      "Grávida",
+      "Envergonhada",
+      "Embaraçada",
+      "Cansada"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em inglês, \"however\" expressa ideia de:",
+    "alternativas": [
+      "Adição",
+      "Oposição",
+      "Causa",
+      "Conclusão"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em espanhol, \"exquisito\" significa:",
+    "alternativas": [
+      "Esquisito",
+      "Estranho",
+      "Delicioso",
+      "Exigente"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Observar o título, as imagens e as palavras-chave antes de ler o texto completo é uma estratégia de:",
+    "alternativas": [
+      "Tradução literal",
+      "Leitura estratégica, para antecipar o assunto",
+      "Memorização",
+      "Cópia de trechos"
+    ],
+    "resposta": 1
+  }
+]

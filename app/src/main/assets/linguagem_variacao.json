@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "As diferenças de fala entre regiões do país são exemplos de variação:",
+    "alternativas": [
+      "Histórica",
+      "Situacional",
+      "Regional",
+      "Exclusivamente escrita"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Mandioca\", \"aipim\" e \"macaxeira\" são exemplos de variação:",
+    "alternativas": [
+      "Regional",
+      "Histórica",
+      "Formal",
+      "Escrita"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: falar de maneira diferente da norma-padrão significa necessariamente falar errado.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A mudança do pronome \"vosmecê\" para \"você\" ilustra variação:",
+    "alternativas": [
+      "Regional",
+      "Social",
+      "Situacional",
+      "Histórica"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Usar linguagem mais formal numa entrevista de emprego e mais informal com amigos é variação:",
+    "alternativas": [
+      "Histórica",
+      "Situacional",
+      "Regional",
+      "Geográfica"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Julgar uma pessoa de forma negativa pela maneira como ela fala caracteriza:",
+    "alternativas": [
+      "Preconceito linguístico",
+      "Adequação",
+      "Gíria",
+      "Neologismo"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A norma-padrão é:",
+    "alternativas": [
+      "O modelo idealizado e codificado nas gramáticas normativas",
+      "A fala de todas as regiões",
+      "A linguagem das redes sociais",
+      "Um dialeto sem regras"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Jargão é:",
+    "alternativas": [
+      "Uma palavra de origem estrangeira",
+      "Um erro de concordância",
+      "Uma rima",
+      "O vocabulário próprio de uma profissão ou grupo"
+    ],
+    "resposta": 3
+  }
+]

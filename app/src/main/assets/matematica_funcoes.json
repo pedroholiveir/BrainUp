@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma função afim tem a forma:",
+    "alternativas": [
+      "f(x) = ax + b",
+      "f(x) = ax² + bx + c",
+      "f(x) = aˣ",
+      "f(x) = log x"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O gráfico de uma função afim é:",
+    "alternativas": [
+      "Uma parábola",
+      "Uma circunferência",
+      "Uma hipérbole",
+      "Uma reta"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: na função f(x) = 2x − 6, a raiz é x = 3.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em f(x) = 5 + 2x, que representa uma corrida de táxi, o número 2 significa:",
+    "alternativas": [
+      "A bandeirada",
+      "O total da corrida",
+      "O valor cobrado por quilômetro",
+      "O número de passageiros"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A parábola de f(x) = −x² + 4 tem concavidade:",
+    "alternativas": [
+      "Para cima",
+      "Para baixo",
+      "Horizontal",
+      "Não é uma parábola"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "As raízes de x² − 5x + 6 = 0 são:",
+    "alternativas": [
+      "2 e 3",
+      "1 e 6",
+      "−2 e −3",
+      "0 e 5"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O vértice da parábola f(x) = x² − 4x + 3 tem abscissa (xᵥ) igual a:",
+    "alternativas": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Se log₁₀ x = 2, então x vale:",
+    "alternativas": [
+      "20",
+      "100",
+      "1.000",
+      "2"
+    ],
+    "resposta": 1
+  }
+]

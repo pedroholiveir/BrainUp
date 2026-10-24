@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "25% equivale à fração:",
+    "alternativas": [
+      "1/4",
+      "1/2",
+      "2/5",
+      "1/5"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "20% de 150 é:",
+    "alternativas": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: um desconto de 10% sobre R$ 100 resulta em R$ 90.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um produto de R$ 200 com 15% de desconto custa:",
+    "alternativas": [
+      "R$ 185",
+      "R$ 170",
+      "R$ 175",
+      "R$ 160"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um aumento de 10% seguido de um desconto de 10% resulta em:",
+    "alternativas": [
+      "O mesmo valor inicial",
+      "Redução de 1% no valor final",
+      "Aumento de 1%",
+      "Redução de 10%"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Os juros simples de R$ 1.000 a 2% ao mês durante 5 meses totalizam:",
+    "alternativas": [
+      "R$ 10",
+      "R$ 100",
+      "R$ 1.100",
+      "R$ 200"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "R$ 1.000 a juros compostos de 10% ao ano rendem, após 2 anos, um montante de:",
+    "alternativas": [
+      "R$ 1.200",
+      "R$ 1.210",
+      "R$ 1.100",
+      "R$ 1.020"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A taxa de desemprego passou de 10% para 12%. Essa variação foi de:",
+    "alternativas": [
+      "2 pontos percentuais (e 20% em relação à taxa anterior)",
+      "12 pontos percentuais",
+      "2% em relação à taxa anterior",
+      "10 pontos percentuais"
+    ],
+    "resposta": 0
+  }
+]

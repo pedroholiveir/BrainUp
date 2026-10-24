@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Ele é uma fera na matemática\" é um exemplo de:",
+    "alternativas": [
+      "Comparação",
+      "Antítese",
+      "Eufemismo",
+      "Metáfora"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Forte como um touro\" é uma:",
+    "alternativas": [
+      "Comparação",
+      "Metonímia",
+      "Ironia",
+      "Paradoxo"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: hipérbole é a figura que exprime exagero.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em \"Li Machado de Assis ontem\", a expressão \"Machado de Assis\" representa a obra do autor. Trata-se de:",
+    "alternativas": [
+      "Metáfora",
+      "Catacrese",
+      "Metonímia",
+      "Antítese"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"O vento sussurrava segredos\" apresenta:",
+    "alternativas": [
+      "Eufemismo",
+      "Personificação",
+      "Ironia",
+      "Gradação"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Dizer \"partiu desta para melhor\" no lugar de \"morreu\" é um:",
+    "alternativas": [
+      "Hipérbole",
+      "Paradoxo",
+      "Antítese",
+      "Eufemismo"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Voz aveludada\" e \"cheiro doce\" são exemplos de:",
+    "alternativas": [
+      "Aliteração",
+      "Onomatopeia",
+      "Sinestesia",
+      "Metonímia"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quando alguém diz \"Que ótimo!\" ao ver o carro quebrado, está usando:",
+    "alternativas": [
+      "Eufemismo",
+      "Ironia",
+      "Hipérbole",
+      "Comparação"
+    ],
+    "resposta": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A Semana de Arte Moderna ocorreu em:",
+    "alternativas": [
+      "1822",
+      "1922",
+      "1952",
+      "1888"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quem escreveu \"Vidas Secas\"?",
+    "alternativas": [
+      "Clarice Lispector",
+      "Mário de Andrade",
+      "Machado de Assis",
+      "Graciliano Ramos"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: \"Macunaíma\" é obra de Mário de Andrade.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O principal objetivo da 1ª fase modernista era:",
+    "alternativas": [
+      "Romper com padrões tradicionais e criar uma arte brasileira livre",
+      "Imitar modelos clássicos",
+      "Reviver o Barroco",
+      "Exaltar a monarquia"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A 2ª fase modernista (1930–1945) destaca-se na prosa por:",
+    "alternativas": [
+      "Poesia parnasiana",
+      "Romances regionalistas e de denúncia social",
+      "Textos religiosos barrocos",
+      "Crônicas esportivas"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Clarice Lispector é conhecida por:",
+    "alternativas": [
+      "Poesia social condoreira",
+      "Naturalismo científico",
+      "Introspecção e fluxo de consciência",
+      "Arcadismo"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Grande Sertão: Veredas\" é obra de:",
+    "alternativas": [
+      "Euclides da Cunha",
+      "Lima Barreto",
+      "Guimarães Rosa",
+      "Jorge Amado"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Quarto de Despejo: Diário de uma Favelada\" é de autoria de:",
+    "alternativas": [
+      "Carolina Maria de Jesus",
+      "Conceição Evaristo",
+      "Rachel de Queiroz",
+      "Cecília Meireles"
+    ],
+    "resposta": 0
+  }
+]

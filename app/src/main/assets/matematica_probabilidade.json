@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Com 3 camisas e 4 calças diferentes, o número de combinações possíveis é:",
+    "alternativas": [
+      "7",
+      "12",
+      "24",
+      "1"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O valor de 4! é:",
+    "alternativas": [
+      "4",
+      "10",
+      "24",
+      "16"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a probabilidade de um evento é sempre um número entre 0 e 1.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A probabilidade de sair um número par ao lançar um dado comum é:",
+    "alternativas": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O número de anagramas da palavra AMOR é:",
+    "alternativas": [
+      "4",
+      "12",
+      "24",
+      "16"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "De quantas formas é possível escolher 2 pessoas de um grupo de 5 para formar uma comissão?",
+    "alternativas": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A probabilidade de obter duas caras em dois lançamentos de uma moeda é:",
+    "alternativas": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "2/3"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "De quantas formas 10 corredores podem ocupar os três primeiros lugares do pódio?",
+    "alternativas": [
+      "30",
+      "120",
+      "720",
+      "1.000"
+    ],
+    "resposta": 2
+  }
+]

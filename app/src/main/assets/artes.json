@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Abaporu\" é uma obra de:",
+    "alternativas": [
+      "Candido Portinari",
+      "Aleijadinho",
+      "Di Cavalcanti",
+      "Tarsila do Amaral"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Cubismo teve como um de seus principais nomes:",
+    "alternativas": [
+      "Claude Monet",
+      "Leonardo da Vinci",
+      "Salvador Dalí",
+      "Pablo Picasso"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: Aleijadinho é o principal artista do Barroco mineiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Impressionismo buscava representar:",
+    "alternativas": [
+      "Cenas religiosas com perspectiva rígida",
+      "Apenas formas geométricas",
+      "Sonhos e inconsciente",
+      "A luz e a impressão do momento"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O ready-made, popularizado por Marcel Duchamp, consiste em:",
+    "alternativas": [
+      "Pintar paisagens realistas",
+      "Compor músicas sinfônicas",
+      "Esculpir em mármore",
+      "Apresentar objetos do cotidiano como obra de arte"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O manguebeat, surgido no Recife nos anos 1990, misturou:",
+    "alternativas": [
+      "Apenas música clássica",
+      "Somente samba tradicional",
+      "Música sertaneja e ópera",
+      "Ritmos regionais, como o maracatu, com rock e música eletrônica"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Surrealismo explora principalmente:",
+    "alternativas": [
+      "A perspectiva linear",
+      "A luz natural",
+      "A geometria pura",
+      "O inconsciente e os sonhos"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O patrimônio cultural imaterial inclui:",
+    "alternativas": [
+      "Edifícios históricos",
+      "Obras de arte em museus",
+      "Monumentos de pedra",
+      "Saberes, celebrações e formas de expressão"
+    ],
+    "resposta": 3
+  }
+]

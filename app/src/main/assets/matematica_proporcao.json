@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma razão é:",
+    "alternativas": [
+      "A comparação entre duas grandezas por meio de uma divisão",
+      "A soma de duas grandezas",
+      "A diferença entre dois números",
+      "Um tipo de gráfico"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em uma proporção a/b = c/d, vale que:",
+    "alternativas": [
+      "a + d = b + c",
+      "a·b = c·d",
+      "a − d = b − c",
+      "a·d = b·c"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: velocidade e tempo (para percorrer a mesma distância) são grandezas inversamente proporcionais.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Se 3 kg de arroz custam R$ 12, 5 kg custam:",
+    "alternativas": [
+      "R$ 15",
+      "R$ 18",
+      "R$ 20",
+      "R$ 24"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "4 pedreiros constroem um muro em 6 dias. Em quantos dias 3 pedreiros, no mesmo ritmo, constroem o mesmo muro?",
+    "alternativas": [
+      "4 dias",
+      "6 dias",
+      "8 dias",
+      "9 dias"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Dividindo 120 em partes diretamente proporcionais a 1, 2 e 3, a maior parte vale:",
+    "alternativas": [
+      "20",
+      "40",
+      "60",
+      "80"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "4 máquinas produzem 200 peças em 5 horas. Quantas peças 6 máquinas produzem em 10 horas?",
+    "alternativas": [
+      "300",
+      "400",
+      "600",
+      "800"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um mapa tem escala 1:500.000. Uma distância de 3 cm no mapa corresponde, na realidade, a:",
+    "alternativas": [
+      "1,5 km",
+      "15 km",
+      "150 km",
+      "5 km"
+    ],
+    "resposta": 1
+  }
+]

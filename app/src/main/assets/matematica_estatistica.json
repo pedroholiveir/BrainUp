@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A média aritmética de 4, 6, 6, 8 e 10 é:",
+    "alternativas": [
+      "6",
+      "6,8",
+      "7",
+      "8"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A moda do conjunto 2, 3, 3, 5, 7 é:",
+    "alternativas": [
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: a mediana é o valor central de um conjunto de dados ordenados.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A mediana de 3, 9, 5 e 7 é:",
+    "alternativas": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Notas 6 (peso 2) e 9 (peso 3): a média ponderada é:",
+    "alternativas": [
+      "7,5",
+      "7,8",
+      "8,0",
+      "7,0"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual medida é menos afetada por valores extremos (muito altos ou muito baixos)?",
+    "alternativas": [
+      "Média",
+      "Amplitude",
+      "Soma",
+      "Mediana"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Duas turmas têm média 7. A turma A tem desvio padrão 0,5 e a turma B, 2. Isso indica que:",
+    "alternativas": [
+      "A turma B é mais homogênea",
+      "A turma A é mais homogênea (notas mais próximas da média)",
+      "As turmas são idênticas",
+      "A média da turma B é maior"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A amplitude de um conjunto de dados é:",
+    "alternativas": [
+      "A soma dos valores",
+      "A diferença entre o maior e o menor valor",
+      "O valor mais frequente",
+      "A raiz da variância"
+    ],
+    "resposta": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A \"Carta\" de Pero Vaz de Caminha pertence ao:",
+    "alternativas": [
+      "Romantismo",
+      "Barroco",
+      "Quinhentismo",
+      "Realismo"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Quem escreveu \"Iracema\"?",
+    "alternativas": [
+      "José de Alencar",
+      "Machado de Assis",
+      "Aluísio Azevedo",
+      "Castro Alves"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: Machado de Assis é um dos principais nomes do Realismo brasileiro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O Barroco é marcado por:",
+    "alternativas": [
+      "Objetividade científica",
+      "Arte pela arte",
+      "Verso livre",
+      "Contrastes e conflito entre fé e prazeres mundanos"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"Fugere urbem\" e vida bucólica são características do:",
+    "alternativas": [
+      "Naturalismo",
+      "Arcadismo",
+      "Barroco",
+      "Parnasianismo"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Castro Alves, autor de \"O Navio Negreiro\", pertence à geração romântica:",
+    "alternativas": [
+      "Indianista",
+      "Ultrarromântica",
+      "Naturalista",
+      "Social e condoreira"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "\"O Cortiço\", de Aluísio Azevedo, é um romance:",
+    "alternativas": [
+      "Naturalista",
+      "Romântico indianista",
+      "Arcadista",
+      "Barroco"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A obra \"Memórias Póstumas de Brás Cubas\" é marcada por:",
+    "alternativas": [
+      "Idealização da natureza",
+      "Linguagem religiosa barroca",
+      "Ironia e análise crítica da sociedade",
+      "Descrições bucólicas"
+    ],
+    "resposta": 2
+  }
+]

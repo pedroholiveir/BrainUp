@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O conectivo \"porém\" expressa ideia de:",
+    "alternativas": [
+      "Adição",
+      "Conclusão",
+      "Causa",
+      "Oposição"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Os conectivos \"portanto\" e \"logo\" introduzem:",
+    "alternativas": [
+      "Oposição",
+      "Conclusão",
+      "Condição",
+      "Comparação"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: coesão está ligada aos mecanismos linguísticos que unem as partes do texto.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em \"Estudou muito; no entanto, não passou\", a relação entre as orações é de:",
+    "alternativas": [
+      "Causa",
+      "Finalidade",
+      "Oposição",
+      "Condição"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em \"Maria chegou cedo. Ela organizou tudo.\", a palavra \"Ela\" é um recurso de coesão:",
+    "alternativas": [
+      "Referencial (retomada)",
+      "Sequencial",
+      "Poético",
+      "Fático"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O conectivo \"embora\" introduz uma ideia de:",
+    "alternativas": [
+      "Causa",
+      "Conclusão",
+      "Concessão",
+      "Adição"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um texto com bons conectivos, mas com ideias contraditórias, tem:",
+    "alternativas": [
+      "Coesão, mas falta de coerência",
+      "Coerência, mas sem coesão",
+      "Coesão e coerência plenas",
+      "Nenhuma coesão"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em \"Chegou atrasado porque o trânsito estava parado\", o conectivo \"porque\" expressa:",
+    "alternativas": [
+      "Oposição",
+      "Causa",
+      "Finalidade",
+      "Conclusão"
+    ],
+    "resposta": 1
+  }
+]

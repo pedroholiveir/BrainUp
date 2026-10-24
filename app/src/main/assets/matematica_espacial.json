@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O volume de um cubo de aresta 3 cm é:",
+    "alternativas": [
+      "9 cm³",
+      "18 cm³",
+      "27 cm³",
+      "6 cm³"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um paralelepípedo de dimensões 2 m, 3 m e 4 m tem volume de:",
+    "alternativas": [
+      "9 m³",
+      "24 m³",
+      "12 m³",
+      "20 m³"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: 1 dm³ equivale a 1 litro.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um cilindro tem raio 3 cm e altura 10 cm. Usando π = 3, seu volume é:",
+    "alternativas": [
+      "90 cm³",
+      "270 cm³",
+      "300 cm³",
+      "180 cm³"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O volume de uma esfera de raio r é:",
+    "alternativas": [
+      "(4/3) · π · r³",
+      "π · r² · h",
+      "4 · π · r²",
+      "(1/3) · π · r² · h"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O volume de um cone de raio 3 cm e altura 4 cm, com π = 3, é:",
+    "alternativas": [
+      "12 cm³",
+      "36 cm³",
+      "108 cm³",
+      "24 cm³"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Se a aresta de um cubo dobra, seu volume fica:",
+    "alternativas": [
+      "2 vezes maior",
+      "4 vezes maior",
+      "6 vezes maior",
+      "8 vezes maior"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "matematica",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Uma caixa-d'água cilíndrica tem raio 1 m e altura 2 m. Usando π = 3, sua capacidade é:",
+    "alternativas": [
+      "6 litros",
+      "600 litros",
+      "6.000 litros",
+      "60.000 litros"
+    ],
+    "resposta": 2
+  }
+]

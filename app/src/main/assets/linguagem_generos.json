@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O texto cuja função principal é informar fatos recentes de modo objetivo é a:",
+    "alternativas": [
+      "Notícia",
+      "Crônica",
+      "Charge",
+      "Poema"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O texto que critica fatos sociais ou políticos por meio de humor e imagem é a:",
+    "alternativas": [
+      "Receita",
+      "Bula",
+      "Edital",
+      "Charge"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: gênero textual e tipo textual são exatamente a mesma coisa.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Um artigo de opinião é um texto predominantemente:",
+    "alternativas": [
+      "Descritivo",
+      "Narrativo",
+      "Argumentativo",
+      "Injuntivo"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A bula de remédio e a receita culinária pertencem a gêneros:",
+    "alternativas": [
+      "Poéticos",
+      "Jornalísticos de opinião",
+      "Instrucionais, que orientam o leitor sobre como proceder",
+      "Publicitários"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Qual gênero costuma abordar o cotidiano em linguagem leve e tom reflexivo, publicado em jornais?",
+    "alternativas": [
+      "Editorial",
+      "Lei",
+      "Manual",
+      "Crônica"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O editorial se diferencia do artigo de opinião porque ele:",
+    "alternativas": [
+      "É sempre humorístico",
+      "Expressa a posição do veículo, geralmente sem assinatura",
+      "É escrito em versos",
+      "Narra uma história de ficção"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Em uma propaganda, o uso combinado de texto e imagem para convencer o consumidor caracteriza um texto:",
+    "alternativas": [
+      "Multimodal e persuasivo",
+      "Apenas descritivo",
+      "Literário narrativo",
+      "Científico"
+    ],
+    "resposta": 0
+  }
+]

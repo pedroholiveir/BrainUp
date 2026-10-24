@@ -1,0 +1,112 @@
+[
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A capoeira é uma manifestação que une:",
+    "alternativas": [
+      "Apenas esporte olímpico",
+      "Ginástica europeia",
+      "Jogo de tabuleiro",
+      "Luta, dança, música e cultura afro-brasileira"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O sedentarismo é fator de risco para:",
+    "alternativas": [
+      "Apenas lesões musculares",
+      "Nenhuma doença",
+      "Apenas insônia",
+      "Doenças cardiovasculares e diabetes"
+    ],
+    "resposta": 3
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "facil",
+    "tipo": "vf",
+    "imagem": "sem_imagem",
+    "pergunta": "Verdadeiro ou falso: o aquecimento antes da atividade física ajuda a preparar o corpo e reduzir o risco de lesões.",
+    "alternativas": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A OMS recomenda, para adultos, ao menos quantos minutos semanais de atividade física moderada?",
+    "alternativas": [
+      "30",
+      "150",
+      "600",
+      "15"
+    ],
+    "resposta": 1
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "O esporte de rendimento caracteriza-se por:",
+    "alternativas": [
+      "Busca de desempenho máximo e competição",
+      "Apenas lazer, sem regras",
+      "Ausência de treinamento",
+      "Práticas exclusivamente educativas"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "medio",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A visão ampliada de saúde considera:",
+    "alternativas": [
+      "Apenas a ausência de doença",
+      "Apenas a alimentação",
+      "Bem-estar físico, mental e social, além das condições de vida",
+      "Somente o exercício físico"
+    ],
+    "resposta": 2
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "A pressão por padrões de beleza difundidos pela mídia pode contribuir para:",
+    "alternativas": [
+      "Transtornos alimentares e uso indevido de suplementos",
+      "Aumento do bem-estar geral em todos os casos",
+      "Redução do consumo",
+      "Fim do sedentarismo"
+    ],
+    "resposta": 0
+  },
+  {
+    "assunto": "linguagens",
+    "dificuldade": "dificil",
+    "tipo": "multipla",
+    "imagem": "sem_imagem",
+    "pergunta": "Os Jogos Paralímpicos têm como destaque:",
+    "alternativas": [
+      "A exclusão de atletas",
+      "Apenas esportes de inverno",
+      "A prática sem competição",
+      "A inclusão e o esporte adaptado para pessoas com deficiência"
+    ],
+    "resposta": 3
+  }
+]
