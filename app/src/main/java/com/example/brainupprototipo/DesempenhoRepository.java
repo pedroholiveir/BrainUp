@@ -152,15 +152,36 @@ public class DesempenhoRepository {
     public static String nomeConteudo(String chave) {
         if (chave == null) return "Exercícios";
         switch (chave) {
+            // Matemática
             case "algebra": return "Álgebra";
             case "geometria_plana": return "Geometria Plana";
+            case "matematica_proporcao": return "Razão, Proporção e Regra de Três";
+            case "matematica_porcentagem": return "Porcentagem e Juros";
+            case "matematica_funcoes": return "Funções";
+            case "matematica_espacial": return "Geometria Espacial";
+            case "matematica_trigonometria": return "Trigonometria";
+            case "matematica_estatistica": return "Estatística";
+            case "matematica_probabilidade": return "Probabilidade e Contagem";
+            // Linguagens
             case "interpretacao_texto": return "Interpretação de Texto";
+            case "linguagem_generos": return "Gêneros Textuais";
+            case "linguagem_funcoes": return "Funções da Linguagem";
+            case "linguagem_figuras": return "Figuras de Linguagem";
+            case "linguagem_variacao": return "Variação Linguística";
+            case "linguagem_coesao": return "Coesão e Coerência";
+            case "literatura_escolas": return "Literatura: Quinhentismo ao Simbolismo";
+            case "literatura_modernismo": return "Literatura: Modernismo e Contemporânea";
+            case "artes": return "Artes";
+            case "educacao_fisica": return "Educação Física";
+            case "linguas_estrangeiras": return "Inglês e Espanhol";
+            // Biologia
             case "citologia": return "Citologia";
             case "genetica": return "Genética";
             case "evolucao": return "Evolução";
             case "ecologia": return "Ecologia";
             case "botanica": return "Botânica";
             case "fisiologia_humana": return "Fisiologia Humana";
+            // Humanas
             case "filosofia_introducao": return "Introdução à Filosofia";
             case "pensadores_classicos": return "Pensadores Clássicos";
             case "etica": return "Ética";
@@ -176,6 +197,7 @@ public class DesempenhoRepository {
             case "sociologia_introducao": return "Introdução à Sociologia";
             case "sociologia_cultura": return "Cultura e Diversidade";
             case "sociologia_trabalho": return "Trabalho, Desigualdade e Cidadania";
+            // Física e Química
             case "fisica_cinematica": return "Cinemática";
             case "fisica_newton": return "Leis de Newton";
             case "fisica_energia": return "Energia e Trabalho";
@@ -184,7 +206,10 @@ public class DesempenhoRepository {
             case "quimica_ligacoes": return "Ligações Químicas";
             case "quimica_funcoes": return "Funções Inorgânicas e Reações";
             case "quimica_organica": return "Química Orgânica";
-            default: return "Exercícios";
+            default:
+                // chave nova que ainda não está na lista: mostra algo legível em vez de "Exercícios"
+                String t = chave.replace('_', ' ').trim();
+                return t.isEmpty() ? "Exercícios" : Character.toUpperCase(t.charAt(0)) + t.substring(1);
         }
     }
 

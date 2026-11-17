@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -23,6 +24,7 @@ public class ResultadoFragment extends Fragment {
         int total = args != null ? args.getInt("total") : 0;
         int pontos = args != null ? args.getInt("pontos") : 0;
         int pontosMax = args != null ? args.getInt("pontosMax") : 0;
+        final String revisao = args != null ? args.getString("revisao") : null;
 
         // evita divisão por zero
         int pct = total > 0 ? Math.round(acertos * 100f / total) : 0;
@@ -45,6 +47,20 @@ public class ResultadoFragment extends Fragment {
         ((TextView) view.findViewById(R.id.textAcertos)).setText("Acertos: " + acertos);
         ((TextView) view.findViewById(R.id.textTotal)).setText("Total: " + total);
         ((TextView) view.findViewById(R.id.textPontos)).setText("Pontuação: " + pontos + " de " + pontosMax);
+
+        // Ver respostas: mostra o que foi marcado em cada questão e a correta
+        Button btRevisar = view.findViewById(R.id.btRevisar);
+        if (revisao == null) {
+            btRevisar.setVisibility(View.GONE);
+        } else {
+            btRevisar.setOnClickListener(v -> {
+                int containerId = ((ViewGroup) requireView().getParent()).getId();
+                getParentFragmentManager().beginTransaction()
+                        .replace(containerId, RevisaoFragment.newInstance(revisao))
+                        .addToBackStack(null)
+                        .commit();
+            });
+        }
 
         // Refazer: volta para o exercício (que recomeça) em vez de criar outro por cima
         view.findViewById(R.id.btRefazer).setOnClickListener(v -> {

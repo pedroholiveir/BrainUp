@@ -64,10 +64,20 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btEsqueciSenha"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="4dp"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/azul_app" />
+
+        <Button
             android:id="@+id/btEntrar"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="12dp"
             android:backgroundTint="@color/azul_app"
             android:text="Entrar"
             android:textSize="18sp"

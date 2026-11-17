@@ -35,4 +35,19 @@
         android:name="com.example.brainupprototipo.RedacaoResultadoFragment"
         android:label="fragment_redacao_resultado"
         tools:layout="@layout/fragment_redacao_resultado" />
+    <fragment
+        android:id="@+id/bancoQuestoesFragment"
+        android:name="com.example.brainupprototipo.BancoQuestoesFragment"
+        android:label="fragment_banco_questoes"
+        tools:layout="@layout/fragment_banco_questoes" />
+    <fragment
+        android:id="@+id/simuladorTriFragment"
+        android:name="com.example.brainupprototipo.SimuladorTriFragment"
+        android:label="fragment_simulador_tri"
+        tools:layout="@layout/fragment_simulador_tri" />
+    <fragment
+        android:id="@+id/errosFragment"
+        android:name="com.example.brainupprototipo.ErrosFragment"
+        android:label="fragment_erros"
+        tools:layout="@layout/fragment_erros" />
 </navigation>

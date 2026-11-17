@@ -27,6 +27,12 @@ public class InicioFragment extends Fragment {
         // abre dentro do NavHost (antes o NavHost inteiro era substituído, quebrando a barra inferior)
         view.findViewById(R.id.btprovas).setOnClickListener(v ->
                 NavUtil.ir(this, R.id.inicioFragment, R.id.provasEnemFragment));
+        view.findViewById(R.id.btbanco).setOnClickListener(v ->
+                NavUtil.ir(this, R.id.inicioFragment, R.id.bancoQuestoesFragment));
+        view.findViewById(R.id.btsimulador).setOnClickListener(v ->
+                NavUtil.ir(this, R.id.inicioFragment, R.id.simuladorTriFragment));
+        view.findViewById(R.id.bterros).setOnClickListener(v ->
+                NavUtil.ir(this, R.id.inicioFragment, R.id.errosFragment));
 
         DesempenhoRepository.carregarNome(nome -> {
             if (getView() == null || nome == null || nome.trim().isEmpty()) return;

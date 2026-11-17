@@ -228,15 +228,32 @@ public class ExercioFragment extends Fragment {
         finalizando = true;
 
         int acertos = 0, pontos = 0, pontosMax = 0;
+        List<ErrosRepository.Resposta> revisao = new ArrayList<>();
         for (int i = 0; i < perguntas.size(); i++) {
-            int peso = jsonutils.peso(perguntas.get(i).dificuldade);
+            Perguntas p = perguntas.get(i);
+            int peso = jsonutils.peso(p.dificuldade);
             pontosMax += peso;
-            if (respostas[i] == perguntas.get(i).resposta) {
+            if (respostas[i] == p.resposta) {
                 acertos++;
                 pontos += peso;
             }
+
+            ErrosRepository.Resposta r = new ErrosRepository.Resposta();
+            r.id = ErrosRepository.idDe("exercicio", conteudo + "|" + p.pergunta);
+            r.origem = "exercicio";
+            r.conteudo = DesempenhoRepository.nomeConteudo(conteudo);
+            r.pergunta = p.pergunta;
+            r.tipo = p.tipo;
+            r.dificuldade = jsonutils.rotulo(p.dificuldade);
+            r.alternativas = new ArrayList<>(Arrays.asList(p.alternativas));
+            r.correta = p.resposta;
+            r.escolhida = respostas[i];
+            revisao.add(r);
         }
         int total = perguntas.size();
+
+        // erradas entram na lista "Questões que errei"; as acertadas saem dela
+        ErrosRepository.registrar(revisao);
 
         // contexto da aplicação: o fragment já terá sido trocado quando a resposta chegar
         final Context app = requireContext().getApplicationContext();
@@ -253,6 +270,7 @@ public class ExercioFragment extends Fragment {
         b.putInt("total", total);
         b.putInt("pontos", pontos);
         b.putInt("pontosMax", pontosMax);
+        b.putString("revisao", RevisaoUtil.toJson(revisao));
         ResultadoFragment r = new ResultadoFragment();
         r.setArguments(b);
 
